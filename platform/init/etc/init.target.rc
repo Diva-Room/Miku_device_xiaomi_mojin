@@ -125,8 +125,6 @@ on post-fs
     chown system system /sys/devices/virtual/touch/tp_dev/syna_gesture_double_tap_pressed
 
 on late-fs
-    wait_for_prop hwservicemanager.ready true
-    #exec_start wait_for_keymaster
     mount_all --late
 
 on post-fs-data
