@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from Nothing Phone (1) A063_1.5.4
+# All unpinned blobs below are extracted from Nothing Phone (1) A063_1.5.6
 # ACDB - from MONA_V14.0.4.0.TKVCNXM
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb|1c0c6530dbd15270dd8d78abe13c1f1b5ee4816e
 vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb|e205e84ca538a7c5591cd5b6b30bdfdbcdb9fb8a
