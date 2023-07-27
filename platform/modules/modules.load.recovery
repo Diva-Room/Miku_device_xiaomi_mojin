@@ -1,3 +1,4 @@
+hwid.ko
 synaptics_tcm_core_module.ko
 synaptics_tcm_device.ko
 synaptics_tcm_diagnostics.ko
