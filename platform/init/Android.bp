@@ -1,3 +1,11 @@
+cc_library_static {
+    name: "init_zijin",
+    srcs: ["init_zijin.cpp"],
+    include_dirs: ["system/core/init"],
+    shared_libs: ["libbase"],
+    recovery_available: true,
+}
+
 prebuilt_etc {
     name: "charger_fstab.qti",
     src: "etc/charger_fstab.qti",

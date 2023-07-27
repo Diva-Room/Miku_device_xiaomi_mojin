@@ -38,6 +38,9 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/platform/manifest/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/platform/manifest/vendor_framework_compatibility_matrix.xml 
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/platform/manifest/manifest_yupik.xml 
 
+# Init for zijin
+include $(BOARD_CONFIG_PATH)/init.mk
+
 # Kernel
 include $(BOARD_CONFIG_PATH)/kernel.mk
 
