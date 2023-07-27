@@ -1672,3 +1672,34 @@ vendor/lib64/libwfddisplayconfig_proprietary.so
 vendor/lib64/libwfdhdcpcp.so
 vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
 
+### Zijin Parts
+
+# Camera - from ZIJIN_V14.0.5.0.TLPCNXM
+vendor/etc/camera/zijin_motiontuning.xml|316bc2be33f11309352d7f4d96e6e92f81f5bf85|0882d96c981b3f4a04ddc71c70341f6808ee765f
+vendor/lib64/camera/com.qti.actuator.zijin_semco_s5kgw3_dw9800_wide.so|39a03785a8bf49982cb9aec91e6ceedf8d312255
+vendor/lib64/camera/com.qti.actuator.zijin_sunny_imx616_dw9714v_front.so|3e5a7cc615a2b015fd6853bc4a463f6558a453c4
+vendor/lib64/camera/com.qti.eeprom.zijin_ofilm_imx355_gt24p64e_ultra_eeprom.so|41a3075ca642ab540e2ded0a6a54e775afa96574
+vendor/lib64/camera/com.qti.eeprom.zijin_semco_s5kgw3_gt24p128e_wide_eeprom.so|c48b5cfb7d33a86e13d68520b86a4f7f2edceef1
+vendor/lib64/camera/com.qti.eeprom.zijin_sunny_gc02m1_gt24p64e_macro_eeprom.so|3b1ec8086d17240370cb6015b39e7358aeca5c10
+vendor/lib64/camera/com.qti.eeprom.zijin_sunny_imx616_p24c64f_front_eeprom.so|f0ba4f4d15dbb7fc940e2c334b826bffbc4130cb
+vendor/lib64/camera/com.qti.sensor.zijin_ofilm_imx355_ultra.so|274b7d7255327554b198ddfd5db517adadfd8c21
+vendor/lib64/camera/com.qti.sensor.zijin_semco_s5kgw3_wide.so|1755d96b6729f8828156b23f076546af93ac1ff1
+vendor/lib64/camera/com.qti.sensor.zijin_sunny_gc02m1_macro.so|f97c9ffe7c2e9d0a8dccb44a7553649e452f10cc
+vendor/lib64/camera/com.qti.sensor.zijin_sunny_imx616_front.so|105afb5ad906fa912c13b97dd5fe1662cb641096
+vendor/lib64/camera/com.qti.sensormodule.zijin_ofilm_imx355_ultra.bin|f704aa9c2d1e8d4d1fc6217beb5ae4885bd04582
+vendor/lib64/camera/com.qti.sensormodule.zijin_semco_s5kgw3_wide.bin|ea21de938767913c06287bf571a18a56a8ed6a0d
+vendor/lib64/camera/com.qti.sensormodule.zijin_sunny_gc02m1_macro.bin|a3a391403e70f328b09a1642367430ae54738287
+vendor/lib64/camera/com.qti.sensormodule.zijin_sunny_imx616_front.bin|992769f9e8984ab398b005cc116d4473e2bbc810
+vendor/lib64/camera/com.qti.tuned.zijin_ofilm_imx355_ultra.bin|0ae0e0c03753ae36befebec20a0cc5140fe326d3
+vendor/lib64/camera/com.qti.tuned.zijin_semco_s5kgw3_wide.bin|8333c48ae3193a5f046e678324767765596080a4
+vendor/lib64/camera/com.qti.tuned.zijin_sunny_gc02m1_macro.bin|1901a4e319fbf1306eaf79a46232a6f9638b1eaf
+vendor/lib64/camera/com.qti.tuned.zijin_sunny_imx616_front.bin|70f2e8d1228a044a6ca0047caec7cda1c4be8b02
+
+# Display (Stock) - from ZIJIN_V14.0.5.0.TLPCNXM
+vendor/etc/qdcm_calib_data_xiaomi_35_02_0b_cmd_mode_dsc_dsi_panel.xml|7206fdca75d9fe24f8a42f28b3fa7f9cfbd6baa4|01ccb98685fe9086843b60ad49237adfcfae2a3c
+
+# Touchscreen - from ZIJIN_V14.0.5.0.TLPCNXM
+vendor/firmware/goodix_cfg_group_k9e.bin|5b561e3a260f40d4e491166cf8ad41f18f97ffe7
+vendor/firmware/goodix_firmware_k9e.bin|4f6b8a05f70cdb05f28c93f8f1a034bb0e1e0e2a
+vendor/firmware/s3908p_xiaomi_k9e_spi.img|37db36cea6e41fcb55b04976ad9f4c4aab3b0012
+
