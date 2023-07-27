@@ -90,6 +90,18 @@ function blob_fixup() {
             hexdump -ve '1/1 "%.2X"' "${2}" | sed "s/2100805229070094/210080521F2003D5/g" | xxd -r -p > "${EXTRACT_TMP_DIR}/${1##*/}"
             mv "${EXTRACT_TMP_DIR}/${1##*/}" "${2}"
             ;;
+        vendor/lib64/hw/fingerprint.mona.lahaina.so)
+            "${SIGSCAN}" -p "6C 69 62 67 66 5F 68 61 6C 2E 73 6F" -P "6C 69 62 67 66 6D 6F 6E 61 2E 73 6F" -f "${2}"
+            ;;
+        vendor/lib64/hw/fingerprint.zijin.lahaina.so)
+            "${SIGSCAN}" -p "6C 69 62 67 66 5F 68 61 6C 2E 73 6F" -P "6C 69 62 67 66 7A 69 6A 69 2E 73 6F" -f "${2}"
+            ;;
+        vendor/lib64/libgfmona.so)
+            "${SIGSCAN}" -p "6C 69 62 67 66 5F 68 61 6C 2E 73 6F" -P "6C 69 62 67 66 6D 6F 6E 61 2E 73 6F" -f "${2}"
+            ;;
+        vendor/lib64/libgfziji.so)
+            "${SIGSCAN}" -p "6C 69 62 67 66 5F 68 61 6C 2E 73 6F" -P "6C 69 62 67 66 7A 69 6A 69 2E 73 6F" -f "${2}"
+            ;;
     esac
 }
 

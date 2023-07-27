@@ -803,8 +803,8 @@ vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.1.so
 
 # Fingerprint - from MONA_V14.0.4.0.TKVCNXM
-vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.lahaina.so|4aff24285c4c33803cdc698ae0d30e8a0458a54f
-vendor/lib64/libgf_hal.so|52a84e0028902035e0c1bf62b3e2c774340f748b
+vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.mona.lahaina.so|4aff24285c4c33803cdc698ae0d30e8a0458a54f|a8f6cc8313a8e88092a1a465bb97ff79a81eecf7
+vendor/lib64/libgf_hal.so:vendor/lib64/libgfmona.so|52a84e0028902035e0c1bf62b3e2c774340f748b|2c80f4d9a13f571ed1252f98e110c761ea940a6a
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so|ab271b272f9cf53ca65ab1e457d5cd8ddebc87f7
 
 # FM 
@@ -1694,6 +1694,10 @@ vendor/lib64/camera/com.qti.tuned.zijin_sunny_imx616_front.bin|70f2e8d1228a044a6
 
 # Display (Stock) - from ZIJIN_V14.0.5.0.TLPCNXM
 vendor/etc/qdcm_calib_data_xiaomi_35_02_0b_cmd_mode_dsc_dsi_panel.xml|7206fdca75d9fe24f8a42f28b3fa7f9cfbd6baa4|01ccb98685fe9086843b60ad49237adfcfae2a3c
+
+# Fingerprint - from ZIJIN_V14.0.5.0.TLPCNXM
+vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.zijin.lahaina.so|5753cbc9c748e3510360d85d75a531d832f686d4|4a83344d0d39aadcaca97c4c69916201fa80ed67
+vendor/lib64/libgf_hal.so:vendor/lib64/libgfziji.so|f7c42af1a34b4c66009a65641080c4d6ebfde8f1|4eefb7f1169c734e3090d63fc08cdab6ee3d26a5
 
 # Touchscreen - from ZIJIN_V14.0.5.0.TLPCNXM
 vendor/firmware/goodix_cfg_group_k9e.bin|5b561e3a260f40d4e491166cf8ad41f18f97ffe7

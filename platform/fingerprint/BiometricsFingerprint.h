@@ -70,7 +70,7 @@ public:
     Return<void> onFingerUp() override;
 
 private:
-    static fingerprint_device_t* openHal();
+    static fingerprint_device_t* openHal(const char* class_name);
     static void notify(const fingerprint_msg_t *msg); /* Static callback for legacy HAL implementation */
     static void setFodStatus(int value);
     static void setHbmStatus(bool value);

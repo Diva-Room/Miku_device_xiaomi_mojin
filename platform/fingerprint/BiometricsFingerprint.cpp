@@ -47,6 +47,9 @@
 #define DISP_PARAM_LOCAL_HBM_OFF "0"
 #define DISP_PARAM_LOCAL_HBM_ON "1"
 
+#define MODEL_MONA "mona"
+#define MODEL_ZIJIN "zijin"
+
 namespace android {
 namespace hardware {
 namespace biometrics {
@@ -74,7 +77,12 @@ bool fod_ready = false;
 
 BiometricsFingerprint::BiometricsFingerprint() : mClientCallback(nullptr), mDevice(nullptr) {
     sInstance = this; // keep track of the most recent instance
-    mDevice = openHal();
+    std::string hwVersion = base::GetProperty("ro.boot.hwversion", "");
+    if (hwVersion.find("11.9.0") != std::string::npos) {
+        mDevice = openHal(MODEL_MONA);
+    } else {
+        mDevice = openHal(MODEL_ZIJIN);
+    }
     if (!mDevice) {
         ALOGE("Can't open HAL module");
     } else {
@@ -248,11 +256,11 @@ IBiometricsFingerprint* BiometricsFingerprint::getInstance() {
     return sInstance;
 }
 
-fingerprint_device_t* BiometricsFingerprint::openHal() {
+fingerprint_device_t* BiometricsFingerprint::openHal(const char* class_name) {
     int err;
     const hw_module_t *hw_mdl = nullptr;
     ALOGD("Opening fingerprint hal library...");
-    if (0 != (err = hw_get_module(FINGERPRINT_HARDWARE_MODULE_ID, &hw_mdl))) {
+    if (0 != (err = hw_get_module_by_class(FINGERPRINT_HARDWARE_MODULE_ID, class_name, &hw_mdl))) {
         ALOGE("Can't open fingerprint HW Module, error: %d", err);
         return nullptr;
     }
