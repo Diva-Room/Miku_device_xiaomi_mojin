@@ -23,4 +23,7 @@ PRODUCT_PACKAGES += \
 # WiFi
 PRODUCT_PACKAGES += \
     WifiOverlay 
-	
+
+# Zijin
+PRODUCT_PACKAGES += \
+    ZijinProductNameOverlay
