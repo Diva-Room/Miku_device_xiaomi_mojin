@@ -17,6 +17,9 @@ include $(BOARD_CONFIG_PATH)/art.mk
 # Arch
 include $(BOARD_CONFIG_PATH)/arch.mk
 
+# Assertions
+TARGET_OTA_ASSERT_DEVICE := mona|zijin
+
 # Audio
 include $(BOARD_CONFIG_PATH)/audio_board_config.mk
 
