@@ -1,11 +1,11 @@
 Copyright (C) 2023 Miku UI
 
-Device configuration for Xiaomi Civi
+Device configuration for Xiaomi Civi / 1S
 =========================================
 
-The Xiaomi Civi (codenamed _"mona"_) is a mid-range smartphone from Xiaomi.
+The Xiaomi Civi / 1S (codenamed _"mona / zijin"_) is a mid-range smartphone from Xiaomi.
 
-It was released in September 2021.
+It was released in September 2021(mona) / April 2022(zijin).
 
 ## Device specifications
 
@@ -16,7 +16,7 @@ Chipset | Qualcomm Snapdragon 778G 5G
 GPU     | Adreno 642L
 Memory  | 8/12 GB, LPDDR4X
 Storage | 128/256 GB, UFS 2.2
-Shipped Android Version | 11
+Shipped Android Version | 11(mona) / 12(zijin)
 Battery | Non-removable 4500 mAh
 Display | 2400 x 1080 pixels, 6.55 inches
 Camera  | 64 MP main, 8 MP ultra-wide angle, 2 MP telemacro, 32 MP front
