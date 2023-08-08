@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=mona
+DEVICE=mojin
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks

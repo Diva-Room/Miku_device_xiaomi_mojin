@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/mona
+DEVICE_PATH := device/xiaomi/mojin
 BOARD_CONFIG_PATH := $(DEVICE_PATH)/platform/board
 PLATFORM_NAME := lahaina
 
@@ -18,7 +18,7 @@ include $(BOARD_CONFIG_PATH)/art.mk
 include $(BOARD_CONFIG_PATH)/arch.mk
 
 # Assertions
-TARGET_OTA_ASSERT_DEVICE := mona|zijin
+TARGET_OTA_ASSERT_DEVICE := mona|zijin|mojin
 
 # Audio
 include $(BOARD_CONFIG_PATH)/audio_board_config.mk
@@ -77,4 +77,4 @@ include $(BOARD_CONFIG_PATH)/vbmeta.mk
 include $(BOARD_CONFIG_PATH)/wlan_board_config.mk
 
 # Include the proprietary files BoardConfig.
-include vendor/xiaomi/mona/BoardConfigVendor.mk
+include vendor/xiaomi/mojin/BoardConfigVendor.mk

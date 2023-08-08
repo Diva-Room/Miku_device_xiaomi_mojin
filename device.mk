@@ -10,7 +10,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/usb/etc
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/mona/mona-vendor.mk)
+$(call inherit-product, vendor/xiaomi/mojin/mojin-vendor.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)

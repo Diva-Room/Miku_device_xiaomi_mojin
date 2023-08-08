@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PLATFORM_MAKEFILES_PATH := device/xiaomi/mona/platform/props
+PLATFORM_MAKEFILES_PATH := device/xiaomi/mojin/platform/props
 
 TARGET_ODM_PROP += $(PLATFORM_MAKEFILES_PATH)/odm.prop
 TARGET_PRODUCT_PROP += $(PLATFORM_MAKEFILES_PATH)/product.prop

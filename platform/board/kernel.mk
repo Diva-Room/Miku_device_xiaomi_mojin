@@ -15,7 +15,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_RAMDISK_USE_LZ4 := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := TARGET_PRODUCT=$(PRODUCT_DEVICE)
 TARGET_KERNEL_SOURCE := kernel/xiaomi/modina
-TARGET_KERNEL_CONFIG := vendor/lahaina-qgki_defconfig vendor/mona_QGKI.config
+TARGET_KERNEL_CONFIG := vendor/lahaina-qgki_defconfig vendor/mojin_QGKI.config
 TARGET_KERNEL_NO_GCC := true
 TARGET_WITH_KERNEL_SU := true
 
