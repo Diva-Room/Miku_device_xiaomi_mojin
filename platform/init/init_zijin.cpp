@@ -41,6 +41,10 @@ void setup_model_properties()
         property_override("ro.product.name", "miku_zijin");
         property_override("ro.product.device", "zijin");
         property_override("bluetooth.device.default_name", "Xiaomi Civi 1S");
+    } else {
+        property_override("ro.product.name", "miku_mona");
+        property_override("ro.product.device", "mona");
+        property_override("bluetooth.device.default_name", "Xiaomi Civi");
     }
 }
 
