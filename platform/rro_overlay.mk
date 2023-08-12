@@ -8,10 +8,6 @@
 PRODUCT_PACKAGES += \
     DeviceApertureOverlay
 
-# Frameworks
-PRODUCT_PACKAGES += \
-    MikuDeviceFrameworksOverlay
-
 # RIL
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay 

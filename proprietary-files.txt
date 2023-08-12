@@ -28,61 +28,6 @@ vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libadsprpc.so
 
-# ADSP Modules - from MONA_V14.0.4.0.TKVCNXM
-vendor/lib/rfsa/adsp/bm2n06.bin|1575b125138e163894800532fbdf145f3a814d9c
-vendor/lib/rfsa/adsp/bm2n08.bin|e906da095f37cf090f63003c14cdd610b79bb9c8
-vendor/lib/rfsa/adsp/bm2n13.bin|f36d57de52a30e6a86c11145c597d7e8e0ecc48e
-vendor/lib/rfsa/adsp/bm2n14.bin|7adbe69e74e54c324d1a8faa3de2ed1d907ef895
-vendor/lib/rfsa/adsp/bm2n15.bin|45cc6f1c80da1a0a0e1dbf84b782dda06d1c8145
-vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so|f357ce20b069feac7e8c87f3615d9201c00aff7b
-vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so|937a15ecdff7661cc3b0e42dcb43dd38e989812b
-vendor/lib/rfsa/adsp/capi_v2_dap_cpdp.so|e9c982e16e89f9b836b78cb66d9f4dc9848ec80f
-vendor/lib/rfsa/adsp/hrtf5c.bin|8bf76971487be92028b7908ef519521fe5faeffe
-vendor/lib/rfsa/adsp/libMIAIHDR_skel.so|7cce87c1b9ffeae8e8c3d5c0961e4195d0307d88
-vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so|8f338b20fd8c92a601d74d273cdc3e1dfc32807a
-vendor/lib/rfsa/adsp/libQnnHtpAltPrepSkel.so|4732dd1b60bc95839cf6b0fda97252af845c2ba8
-vendor/lib/rfsa/adsp/libQnnHtpSkel.so|493ea09813e9194b607710257a4b019c45a6c992
-vendor/lib/rfsa/adsp/libVppAisQnnHtp.so|3ebd3bd5e59146943b63b67b085c38195d68891c
-vendor/lib/rfsa/adsp/libVppFrcQnnHtp.so|ae6c5f78f5969cafb2b9cc574d915973816be7b5
-vendor/lib/rfsa/adsp/libVppQnnHtp.so|a74fde4a224a2a04b574ad7e51940be7afa5c302
-vendor/lib/rfsa/adsp/libadsp_jpege_skel.so|32c2b255f8b15848cd40739b9c455e86a1adb1e8
-vendor/lib/rfsa/adsp/libapps_mem_heap.so|738014e904331e99749f36c8f6c0c43b8c246fe6
-vendor/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so|0d46522555fa04a0097043121fdb1306f8f00537
-vendor/lib/rfsa/adsp/libbitml_nsp_skel.so|dc07e450366c7723a7a6048ad0113dbe7893d1b4
-vendor/lib/rfsa/adsp/libbitml_nsp_v2_skel.so|9940ad2ccf12b1cc9144f386e6b6f4c53d054e02
-vendor/lib/rfsa/adsp/libcamera_nn_skel.so|e4a35174a93264b38fe210a3f99e5fb7be8dc39e
-vendor/lib/rfsa/adsp/libcvpdsp_2_1.so|e776e9bc4a2f70c41d19a81c004b5ba861ceb623
-vendor/lib/rfsa/adsp/libdspCV_skel.so|65c5480b5491c2d9baeaa5f2fcb48b12f5a00e3d
-vendor/lib/rfsa/adsp/libdsp_streamer_binning.so|00eb6acc7c864371b932f95ff98e98351c6508d8
-vendor/lib/rfsa/adsp/libfastcvadsp.so|88509680ca6d9076b1a1e602a3c9cc2a52b756b6
-vendor/lib/rfsa/adsp/libfastcvdsp_skel.so|3d6e2192f0cbbb28683ea1bcf286b3d5f0bc5346
-vendor/lib/rfsa/adsp/libhdr_skel.so|bc6e7d4d621fed94ea9c68866fda372fcc37dece
-vendor/lib/rfsa/adsp/libmctfengine_skel.so|84e40369800237ee32ca0de1ad4edc0eb6560814
-vendor/lib/rfsa/adsp/libmialgo_basic_cdsp_skel.so|e0edc20195b8b4d84c1ed40d331e8279f046a8ba
-vendor/lib/rfsa/adsp/libmialgo_mc_bokeh_cdsp_skel.so|6c39245d2f2566b62cd5cb9118b466605949cede
-vendor/lib/rfsa/adsp/libmialgo_mfnr_cdsp_skel.so|ebbfd258309abdc001600b611ae78a7eef470eb5
-vendor/lib/rfsa/adsp/libmialgo_pureview_cdsp_skel.so|1227c39ff7ba6b9ae5071ac833876c5fa0bef039
-vendor/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so|417dda2b76ade7b72071d352a6c3582ef4a3c937
-vendor/lib/rfsa/adsp/libmialgo_sfnr_cdsp_skel.so|3da1b0847a2d285f3d07942196e95d665e7c63dd
-vendor/lib/rfsa/adsp/libmobilenet_dsp_frc.so|39ba75da33972b88b62e570aed2481267b03184f
-vendor/lib/rfsa/adsp/libmobilenet_dsp_frc_networks.so|a6c6db481d84c2fe38aa09c92c4720f52329e0f1
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|396429c72bae75fcdf40e623d19e83b2c1e4969a
-vendor/lib/rfsa/adsp/libscveT2T_skel.so|044e5721f4527db4038d4a23b94986c6dbd6000c
-vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so|06f6463a244b6514820808ff09bd770f53896dd5
-vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so|7ab84262ccdf12c89fbbff998fbebcd7c3a1b97e
-vendor/lib/rfsa/adsp/libsnpe_dsp_v68_domains_v3_skel.so|a36a7c33280e66461910a71d3afff14d3009c868
-vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
-vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
-vendor/lib/rfsa/adsp/libsuper_res_networks.so|98084296bcbcc12bdedac2c2a4ea8b6f92862b4b
-vendor/lib/rfsa/adsp/libvpp_ais_networks.so|98084296bcbcc12bdedac2c2a4ea8b6f92862b4b
-vendor/lib/rfsa/adsp/libvpt_action_recognition.so|c9a79942e70e7457be68b64904bdaef9f3293bc5
-vendor/lib/rfsa/adsp/misound_karaoke_res.bin|ab9fb2b324547016268bb9e4d7a169ceebc7ebc5
-vendor/lib/rfsa/adsp/misound_karaokemix_res.bin|1b6114eeefa29e36f10571ae5dde4ba84625982c
-vendor/lib/rfsa/adsp/misound_res_headphone.bin|a67809404abbec960cfe3d1d7c99fce8567590f0
-vendor/lib/rfsa/adsp/misound_res_spk.bin|6a57ba91dc65c9e8c41ff95b41ce41040a67864b
-vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
-vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
-
 # Audio configs - from MONA_V14.0.4.0.TKVCNXM
 vendor/etc/audio/sku_yupik/audio_platform_info_yupikidp.xml|d054b7bd4285a735ca451c9759f2f1a98bffd933
 vendor/etc/audio/sku_yupik/mixer_paths_overlay_dynamic.xml|f2d14feb592df30b7ff19a603b09bea09f14f6ee
@@ -229,7 +174,6 @@ vendor/etc/camera/model_ai_dxo.dlc|54a70ab33494996e7f3d30c31d7a8832cec91c4d
 vendor/etc/camera/model_back.dlc|9d48e6285bdaf5256a240897c441b5bc1aea9097
 vendor/etc/camera/model_front.dlc|053490643e6db48663bfe6e40ff2824f514de9bd
 vendor/etc/camera/model_glass.dlc|3dda2206691b787ae858b516252067be68b12e24
-vendor/etc/camera/mona_motiontuning.xml|6c7b6b40fee114c2651aca05a1e3c83c1ff6a82d|8934e01660653b437d11cd8fecde46eeb20f8f21
 vendor/etc/camera/para_ini_cal_w_u_0.bin|a446b5e86ac2bfedab033b3746dbeaebefe1a8ad
 vendor/etc/camera/para_ini_verify_w_u_0.bin|54d154bbee368863eda6ba5ab711c36fc2ef5849
 vendor/etc/camera/person_det_dsp.dlc|61a1bc99e86ee89288a34b114c55d887b0d5d8b3
@@ -288,25 +232,7 @@ vendor/lib/libmmcamera_lscv35.so|df0aecda716a419e2d7192606dd59a8b4c9300b2
 vendor/lib/libmmcamera_mfnr.so|40f13aa6204f84bcdf4db6c777f409443b7dc449
 vendor/lib/libmmcamera_mfnr_t4.so|80289efed8725661230da5b79801fe3ebd80af2d
 vendor/lib/libmmcamera_pdpc.so|ac17fbbf29b9d7f931637e4188e0ec928f79cba6
-vendor/lib64/camera/com.qti.actuator.mona_semco_s5kgw3_dw9800_wide.so|3d757bd3a8a177eaacb60c7d2762fca1ab0b1bc8
-vendor/lib64/camera/com.qti.actuator.mona_sunny_imx616_dw9714v_front.so|97139195b1412bf4f7b1e73cebcda3fd04d7610a
-vendor/lib64/camera/com.qti.eeprom.mona_ofilm_imx355_gt24p64e_ultra_eeprom.so|49893c043654e1bc7311c0eb07deae51331f11b7
-vendor/lib64/camera/com.qti.eeprom.mona_semco_s5kgw3_gt24p128e_wide_eeprom.so|fa04eedc2710acdc1809c2434699771d44522117
-vendor/lib64/camera/com.qti.eeprom.mona_sunny_gc02m1_gt24p64e_macro_eeprom.so|8192f4f3bd0735a2c7edeaac19c87c69b659173b
-vendor/lib64/camera/com.qti.eeprom.mona_sunny_imx616_p24c64f_front_eeprom.so|49ce96d5998de8f7fcce086f7a14a110f9f48d21
-vendor/lib64/camera/com.qti.sensor.mona_ofilm_imx355_ultra.so|45488764ea4f2a2d675eb08d8165e3870148e4ca
-vendor/lib64/camera/com.qti.sensor.mona_semco_s5kgw3_wide.so|e0df79a313ec7170b59af96b912029365e0f6e50
-vendor/lib64/camera/com.qti.sensor.mona_sunny_gc02m1_macro.so|1b1e4fad5e1ced22bc7d59f805784727aa416f66
-vendor/lib64/camera/com.qti.sensor.mona_sunny_imx616_front.so|fbcdad6cae90165c5899ca802bfa590f34164439
-vendor/lib64/camera/com.qti.sensormodule.mona_ofilm_imx355_ultra.bin|3d10a139308d8835f4759af2fb9d95ab7c813c3d
-vendor/lib64/camera/com.qti.sensormodule.mona_semco_s5kgw3_wide.bin|2e0ba99e7788b8e0d879bde13131bde2e4361ed8
-vendor/lib64/camera/com.qti.sensormodule.mona_sunny_gc02m1_macro.bin|b2f0dec6ddde216114a8da3790e217f9392fa1e0
-vendor/lib64/camera/com.qti.sensormodule.mona_sunny_imx616_front.bin|55523b07d027dbe715799484817136fa75a63c04
 vendor/lib64/camera/com.qti.tuned.default.bin|c8a750cff0fbc6235f835b42c835e06af51ac3c2
-vendor/lib64/camera/com.qti.tuned.mona_ofilm_imx355_ultra.bin|997c15c0becc2190099dbcc19c869b4c91ff4b00
-vendor/lib64/camera/com.qti.tuned.mona_semco_s5kgw3_wide.bin|668bec9594f134365a1e41374edbcea187ba118e
-vendor/lib64/camera/com.qti.tuned.mona_sunny_gc02m1_macro.bin|dd027f64c416b0b153f4924825e4e87c23c74537
-vendor/lib64/camera/com.qti.tuned.mona_sunny_imx616_front.bin|1e12ecc0c8070dba75e64e3ad37a20e686dc6f6d
 vendor/lib64/camera/components/com.mi.node.aiasd.so|bd5c61b666a7fa801833e9487d0cf4b509bed1bb
 vendor/lib64/camera/components/com.mi.node.beautyLens.so|af6ee42fa5f589c48441bce2a94a0162497a46a4
 vendor/lib64/camera/components/com.mi.node.facealign.so|c32d7269c1df1403d28a86f758d969b1f1d2e34e
@@ -801,11 +727,6 @@ vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
 vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.1.so
-
-# Fingerprint - from MONA_V14.0.4.0.TKVCNXM
-vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.lahaina.so|4aff24285c4c33803cdc698ae0d30e8a0458a54f
-vendor/lib64/libgf_hal.so|52a84e0028902035e0c1bf62b3e2c774340f748b
-vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so|ab271b272f9cf53ca65ab1e457d5cd8ddebc87f7
 
 # FM 
 vendor/lib/vendor.qti.hardware.fm@1.0.so
@@ -1509,9 +1430,6 @@ vendor/lib64/libthermalclient.so
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
-
-# Touchscreen - from MONA_V14.0.4.0.TKVCNXM
-vendor/firmware/s3908p_xiaomi_k9b_spi.img|00949c8683a11b1d72088fd2d3702f59e13d494c
 
 # Trusted Execution Environment connector
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
