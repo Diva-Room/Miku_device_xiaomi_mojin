@@ -1,14 +1,14 @@
 # All unpinned blobs below are extracted from Nothing Phone (1) A063_1.5.6
-# ACDB - from MONA_V14.0.4.0.TKVCNXM
-vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb|1c0c6530dbd15270dd8d78abe13c1f1b5ee4816e
+# ACDB - from ZIJIN_V14.0.5.0.TLPCNXM
+vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb|01c7984a20e4d36a27b0e7227a7d5c28d2bb0e2a
 vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb|e205e84ca538a7c5591cd5b6b30bdfdbcdb9fb8a
-vendor/etc/acdbdata/Forte/Forte_General_cal.acdb|4c820f66b94bab9f8033a360c727b1cc27ea5989
-vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb|ef0a3fa495834b76f32c06d69d92fbfcce04ac5f
-vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb|03765e6c9aba94f1abadc0429213ada7d0f1cf06
-vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb|efc073a65682862b803855670148f63d99a4d15e
-vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb|fca925dbe686a02e348fc0ec29abe7c4fbcd10bd
-vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb|3a49abc2d8de3e0c30049239abbac2ee1223abf0
-vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp|ff7181bbf9228f03a82669f89d4fb024b3d7bdff
+vendor/etc/acdbdata/Forte/Forte_General_cal.acdb|8a853b79f312aa32caaf8abf4d67b44f122edd53
+vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb|35ba567cbada6d469a16d011a18ec36744126faf
+vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb|e66f2528c0f52bfdd151b197ea046b1a204e236f
+vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb|2c335f4e661a50d529a251df4fae427ef5da1ad2
+vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb|97dd2f75c6cfa9233c7c7d708d378ebacf357642
+vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb|648fabf49933a60e7a84941f137a6ba20be489ac
+vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp|20a22ddcb5a6f3ac561dd48730b1f014f509ecdb
 vendor/etc/acdbdata/adsp_avs_config.acdb|1ca6eb1a853310dc5a3ecac32146dc4e88e06118
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd|247fa73e3b22ac1d8b98a601a9583bfd1e113879
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.10.pmd|5271ce640ce35900690f8adf7b57aa53ef560e13
@@ -16,11 +16,11 @@ vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.00.pmd|7d6596a
 vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd|4160e57be26f1ca99b857276be74c40294a26665
 vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd|b1d2f43214d8509cf5f3ca20092c7ca475be684e
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.10.pmd|84537b77f8bdb72e23420f417c2d0a24da7a71a0
-vendor/lib/libacdb-fts.so|dc24825f56e80aba7c6a58fd666d9414f4e19c6f
-vendor/lib/libacdbloader.so|b0d432f2156b5e5e690c26dafe726ac1fd4c1af6
-vendor/lib/libacdbrtac.so|542161508c2ed258ef0fe3c147551e9666927aee
-vendor/lib/libadiertac.so|36d577212040684a9fcd7e482141ac795f2ec90c
-vendor/lib/libaudcal.so|a211bf2d63b524ec2c3a88a7bfb2905612d92f42
+vendor/lib/libacdb-fts.so|523c9355fa698fa8f63672f0283da3ddd6b438c8
+vendor/lib/libacdbloader.so|42bcb6c58bd40e0d53ded2f039fb5147c516e436
+vendor/lib/libacdbrtac.so|4d017b29cfc001257c0d85f4ba44eb1771387055
+vendor/lib/libadiertac.so|8046c1fc3cd2f17aa0a2b679379e4af565d1b2d7
+vendor/lib/libaudcal.so|37afc6339fa01f0d18c0e06238d3d0a701a8209d
 
 # ADSP
 vendor/bin/adsprpcd
@@ -28,26 +28,26 @@ vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libadsprpc.so
 
-# Audio configs - from MONA_V14.0.4.0.TKVCNXM
+# Audio configs - from ZIJIN_V14.0.5.0.TLPCNXM
 vendor/etc/audio/sku_yupik/audio_platform_info_yupikidp.xml|d054b7bd4285a735ca451c9759f2f1a98bffd933
 vendor/etc/audio/sku_yupik/mixer_paths_overlay_dynamic.xml|f2d14feb592df30b7ff19a603b09bea09f14f6ee
-vendor/etc/audio/sku_yupik/mixer_paths_overlay_static.xml|666b9b87f65f7f752768175bf1199fc99e067f60
+vendor/etc/audio/sku_yupik/mixer_paths_overlay_static.xml|9c8eae66049ab0d493a08331272faf4379bf8068
 vendor/etc/audio/sku_yupik/mixer_paths_yupikidp.xml|dd01937c401b469abdae935af52543d793052211
 vendor/etc/audio/sku_yupik/sound_trigger_mixer_paths_yupikidp.xml|e5b9c1bb730ac1e989da6a852ed04f7756c4eea6
 vendor/etc/audio/sku_yupik/sound_trigger_platform_info.xml|99a873cb8a3d912537e0c6c066c78d93804ec044
 
-# AudioFW - from MONA_V14.0.4.0.TKVCNXM
+# AudioFW - from ZIJIN_V14.0.5.0.TLPCNXM
 vendor/firmware/aw882xx_pid_1852_acf.bin|76b29872574da15ca3f7c799fbb55404933d48bd
 vendor/firmware/aw882xx_pid_1852_monitor.bin|2620c3853ec578931d7ecd3e14105368185b0840
-vendor/firmware/aw882xx_pid_2032_acf.bin|07c53fd32657927051a8a64ca0acb653a12ac110
+vendor/firmware/aw882xx_pid_2032_acf.bin|eff45ee0ce4481a9e1d27bdc6d746c847ab7cbe3
 vendor/firmware/aw882xx_pid_2032_monitor.bin|164dca49c8eebe38e280005f50d4403b9fb603ee
 vendor/firmware/aw882xx_rcv_reg_l.bin|1f131331cec12b7694ab1111c8f60d96f679088a
 vendor/firmware/aw882xx_rcv_reg_r.bin|01d3c58a5dda44c990c7a5bceaf4baee05e69504
 vendor/firmware/aw882xx_spk_reg_l.bin|8aba1ead5587badbb375d74dd57db6905dd4d8c3
 vendor/firmware/aw882xx_spk_reg_r.bin|f715ed112943e17cf7e9b5b6c57bdc7a77222910
 
-# Audio HAL - from ZIJIN_V14.0.3.0.TLPCNXM
-vendor/lib/hw/audio.primary.lahaina.so|2c851230f7114c48d6df7f237f0f32c0c7a67010
+# Audio HAL - from ZIJIN_V14.0.5.0.TLPCNXM
+vendor/lib/hw/audio.primary.lahaina.so|6e93cf666ffb9cc699e193a29795566200a214ab
 vendor/lib/liba2dpoffload.so|7f585cbfae36207f0c1d052a8540cb0fd48a0fad
 vendor/lib/libadm.so|ceb6b3d0ba0d41bb5d923fc4ff4699fdf9b0003f
 vendor/lib/libaudio_log_utils.so|f2fb5deb9cc93993983ef84d46bc8ccf0a275c45
@@ -69,7 +69,7 @@ vendor/lib/libvideoNS.so|d4ecaa05d043e4d125ec3b1d06901d8a48091e7c
 vendor/lib64/libcomprcapture.so|f3e99ca846a2e9ae54cffb639cc2a33951794f33
 vendor/lib64/libresampler.so|b38622335b7a883e06f4f48e0f8df33c179d034f
 
-# Audio FX modules - from MONA_V14.0.4.0.TKVCNXM
+# Audio FX modules - from ZIJIN_V14.0.5.0.TLPCNXM
 system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
 system_ext/framework/audiosphere.jar|3c42dff6da0571acd9ea466983c7f6354d588bb3
 vendor/lib/soundfx/libasphere.so|a742e8196f321571132113e0052b9c947cb9d37a
