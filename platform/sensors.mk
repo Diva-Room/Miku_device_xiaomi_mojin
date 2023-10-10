@@ -11,7 +11,8 @@ PRODUCT_PACKAGES += \
     libsensorservicehidl \
     sensors.mona \
     vendor.qti.hardware.display.mapper@1.1.vendor \
-    libprotobuf-cpp-full-3.9.1-vendorcompat
+    libprotobuf-cpp-full-3.9.1-vendorcompat \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
