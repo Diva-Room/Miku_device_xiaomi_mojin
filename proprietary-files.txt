@@ -711,9 +711,6 @@ vendor/lib64/unnhal-acc-gpu.so|71d6930c97ea9256650bb477905b06806c6c143f
 vendor/lib64/unnhal-acc-htp.so|59e5bc6fab0e15310cb15237c8f0a984edb427be
 
 # NFC - from MONA_V14.0.4.0.TKVCNXM
-vendor/etc/libnfc-nci.conf|e3c02b4855b314bd7be008db6a7c8fc9d855147c
-vendor/etc/libnfc-nxp.conf|fc7d940f35a628b12bb2c8fdb94aa0b95341907e
-vendor/etc/libnfc-nxp_RF.conf|5b8981e737b1608d3035b1bdee8150d63352b747
 vendor/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so|53343c7c5f3ac220b4e1a51576eb1d1264c77a4f
 
 # NVRAM - from MONA_V14.0.4.0.TKVCNXM
