@@ -20,15 +20,11 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
-import android.hardware.display.DisplayManagerInternal
 import android.os.IBinder
 import android.util.Log
-import android.view.Display.DEFAULT_DISPLAY
 import android.view.Display.HdrCapabilities
+import android.view.SurfaceControl
 import androidx.preference.PreferenceManager
-
-import com.android.server.display.DisplayControl
-import com.android.server.LocalServices
 
 import com.mona.parts.display.DcUtils
 
@@ -42,8 +38,8 @@ class BootCompletedReceiver : BroadcastReceiver() {
                 Log.e(TAG, "Failed to set DC node on boot!")
         }
 
-        val displayToken: IBinder = DisplayControl.getPhysicalDisplayToken(DisplayControl.getPhysicalDisplayIds()[0])
-        DisplayControl.overrideHdrTypes(
+        val displayToken: IBinder = SurfaceControl.getInternalDisplayToken()
+        SurfaceControl.overrideHdrTypes(
             displayToken, intArrayOf(
                 HdrCapabilities.HDR_TYPE_DOLBY_VISION, HdrCapabilities.HDR_TYPE_HDR10,
                 HdrCapabilities.HDR_TYPE_HLG, HdrCapabilities.HDR_TYPE_HDR10_PLUS
