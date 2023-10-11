@@ -98,6 +98,11 @@ $(call inherit-product, $(LOCAL_PATH)/platform/media.mk)
 # Mona Parts
 PRODUCT_PACKAGES += MonaParts
 
+# Nothing Feature Util
+PRODUCT_PACKAGES += NothingFeatureUtil
+
+PRODUCT_BOOT_JARS += NothingFeatureUtil
+
 # Networks
 $(call inherit-product, $(LOCAL_PATH)/platform/networks.mk)
 

@@ -1,0 +1,40 @@
+package com.nothing;
+
+public abstract class NtFeatures {
+    static final int FEATURE_BIT_BASE = 0;
+    static final int FEATURE_LENGTH = 34;
+    public static final int NTF_ADVANCED_THERMAL_MITIGATION = 21;
+    public static final int NTF_APP_LOCKER = 19;
+    public static final int NTF_ARCSOFT_FACE_RECOGNITION = 14;
+    public static final int NTF_BATTERY_CHARGE_CONFIG = 12;
+    public static final int NTF_BATTERY_HEALTH = 28;
+    public static final int NTF_BLOCK_BENCHMARK = 27;
+    public static final int NTF_BRIGHTNESS_LEVELCUST = 2;
+    public static final int NTF_CONN_LOCATION_TRACKER = 5;
+    public static final int NTF_CONN_NFC_LIGHTS = 8;
+    public static final int NTF_CONN_NFC_MUTUAL_WLC = 7;
+    public static final int NTF_CONN_NFC_TRACKER = 6;
+    public static final int NTF_DISPLAY_VRR = 13;
+    public static final int NTF_DUAL_APPS = 15;
+    public static final int NTF_DUAL_LIGHT_SENSOR = 24;
+    public static final int NTF_DYNAMIC_THERMAL_CONFIG = 11;
+    public static final int NTF_ESSENTIAL_NOTIFICATION = 20;
+    public static final int NTF_GAME_COLOR_PLUS = 31;
+    public static final int NTF_GAME_MODE_TOUCH_SAMPLE_RATE_ENHANCE = 18;
+    public static final int NTF_GAMING_MODE = 4;
+    public static final int NTF_HDR_PEAK_BRIGHTNESS = 30;
+    public static final int NTF_MONITOR_CHARGE_SERVICE = 33;
+    public static final int NTF_NAVBAR_SWITCH = 0;
+    public static final int NTF_NETWORK_LIMIT = 17;
+    public static final int NTF_NETWORK_WIFI_AP_TEMPERATURE = 29;
+    public static final int NTF_POP_UP_VIEW = 10;
+    public static final int NTF_PRIVACY_ICON_CAMERA_BOKEH = 25;
+    public static final int NTF_SCREENSHOT_SOUND = 1;
+    public static final int NTF_SCREEN_ON_OFF_ANIMATION = 26;
+    public static final int NTF_SENSOR_BACK_LIGHT_EXTRA_SOURCE = 32;
+    public static final int NTF_SHOW_DUAL_SA_SWITCH = 16;
+    public static final int NTF_SLEEP_TIGHT = 9;
+    public static final int NTF_STATUSBAR_NETWORK_SPEED = 23;
+    public static final int NTF_SYSTEM_POWER_TRACKER = 3;
+    public static final int NTF_WB_VOICE_MODEL = 22;
+}

@@ -1,0 +1,67 @@
+package com.nothing;
+
+import android.os.Build;
+import android.os.SystemProperties;
+import android.util.Log;
+import java.util.BitSet;
+
+public class NtFeaturesUtils extends NtFeatures {
+    private static final boolean DEBUG = false;
+    private static final String TAG = "NtFeatures";
+    private static final BitSet sFeatures = new BitSet(35);
+
+    static {
+        String fullProp = SystemProperties.get("ro.build.nothing.feature.base", "0");
+        String productDiffProp = SystemProperties.get("ro.build.nothing.feature.diff.product." + Build.PRODUCT, "0");
+        String deviceDiffProp = SystemProperties.get("ro.build.nothing.feature.diff.device." + Build.DEVICE, "0");
+        String customProp = SystemProperties.get("persist.custom", "0");
+        if (DEBUG) {
+            Log.d(TAG, "fullProp = " + fullProp + "/ productDiffProp = " + productDiffProp + "/ deviceDiffProp = " + deviceDiffProp + "/ customProp = " + customProp);
+        }
+        base(Long.decode(fullProp).longValue());
+        change(Long.decode(productDiffProp).longValue());
+        change(Long.decode(deviceDiffProp).longValue());
+        change(Long.decode(customProp).longValue());
+    }
+
+    public static boolean isSupport(int... features) {
+        boolean result = true;
+        for (int feature : features) {
+            if (feature < 0 || feature > 34) {
+                return false;
+            }
+            if (!sFeatures.get(feature)) {
+                result = false;
+            }
+        }
+        return result;
+    }
+
+    private static void base(long full) {
+        int index = 0;
+        while (full != 0) {
+            if (full % 2 != 0) {
+                sFeatures.set(index);
+            }
+            index++;
+            full >>>= 1;
+        }
+        if (DEBUG) {
+            Log.d(TAG, "init sFeatures: " + sFeatures);
+        }
+    }
+
+    private static void change(long diff) {
+        int index = 0;
+        while (diff != 0) {
+            if (diff % 2 != 0) {
+                sFeatures.flip(index);
+            }
+            index++;
+            diff >>>= 1;
+        }
+        if (DEBUG) {
+            Log.d(TAG, "sFeatures after chage: " + sFeatures);
+        }
+    }
+}
