@@ -20,10 +20,7 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
-import android.os.IBinder
 import android.util.Log
-import android.view.Display.HdrCapabilities
-import android.view.SurfaceControl
 import androidx.preference.PreferenceManager
 
 import com.mona.parts.display.DcUtils
@@ -38,13 +35,6 @@ class BootCompletedReceiver : BroadcastReceiver() {
                 Log.e(TAG, "Failed to set DC node on boot!")
         }
 
-        val displayToken: IBinder = SurfaceControl.getInternalDisplayToken()
-        SurfaceControl.overrideHdrTypes(
-            displayToken, intArrayOf(
-                HdrCapabilities.HDR_TYPE_DOLBY_VISION, HdrCapabilities.HDR_TYPE_HDR10,
-                HdrCapabilities.HDR_TYPE_HLG, HdrCapabilities.HDR_TYPE_HDR10_PLUS
-            )
-        )
     }
 
     companion object {
