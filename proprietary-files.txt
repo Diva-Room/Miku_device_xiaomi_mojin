@@ -646,7 +646,7 @@ vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy|a134d3d5d74294ca8164056b4
 vendor/etc/video_system_specs.json|fa29471cada89e61aba80dc4dacbd7c9d2f86d5e
 
 # Media Dolby Vision Codec - from MONA_V14.0.4.0.TKVCNXM
-vendor/bin/hw/dolbycodec2|186f07732444177f5d719c31d99a7420a54cb025|b06ec5e60e9f11bb3424df774ff825e6b9f93b99
+vendor/bin/hw/dolbycodec2|186f07732444177f5d719c31d99a7420a54cb025|1942273e7ceed03a5df97ff17e5d16acd1e52ca8
 vendor/etc/dolby_vision.cfg|05c918ea097ac9cc07daeb0b7f292f6cc0edc2eb
 vendor/etc/init/dolbycodec2.rc|1ea8b363e94fd4f5410cadceb30de8229fb38045
 vendor/lib/c2.dolby.avc.dec.so|23ad4243a0f573897eb456db214e6ead4d72789c

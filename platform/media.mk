@@ -32,3 +32,6 @@ PRODUCT_PACKAGES += \
     libOmxG711Enc \
     libOmxQcelp13Enc \
     libstagefrighthw
+
+# Shim for Dolby codec
+PRODUCT_PACKAGES += libshim

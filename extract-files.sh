@@ -61,6 +61,7 @@ fi
 function blob_fixup() {
     case "${1}" in
         vendor/bin/hw/dolbycodec2)
+            patchelf --add-needed "libshim.so" "${2}"
             patchelf --replace-needed libcodec2_hidl@1.0.so libcodec2_hidl@1.0.stock.so "${2}"
             ;;
         vendor/etc/media_lahaina/video_system_specs.json \
