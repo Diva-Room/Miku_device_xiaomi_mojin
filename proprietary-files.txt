@@ -614,6 +614,7 @@ vendor/lib64/libqcodec2_hooks.so
 vendor/lib64/libqcodec2_platform.so
 vendor/lib64/libqcodec2_utils.so
 vendor/lib64/libqcodec2_v4l2codec.so
+vendor/lib64/libvideooptfeature.so
 
 # Media Profiles - from MONA_V14.0.4.0.TKVCNXM
 -vendor/etc/vintf/manifest/c2_manifest_vendor.xml|735eb3238894207a95d3f5133422b9f76927a73f|dfaad7360e85bf2d1a8293bb878a4f0edc70b1db
