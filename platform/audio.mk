@@ -3,6 +3,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+TARGET_EXCLUDES_AUDIOFX := true
 
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
