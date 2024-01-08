@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from Nothing Phone (1) A063_2.0.2
+# All unpinned blobs below are extracted from Nothing Phone (1) A063_2.5.1
 # ACDB - from ZIJIN_V14.0.5.0.TLPCNXM
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb|01c7984a20e4d36a27b0e7227a7d5c28d2bb0e2a
 vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb|e205e84ca538a7c5591cd5b6b30bdfdbcdb9fb8a
@@ -369,7 +369,7 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # GNSS
 -vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
--vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml
+-vendor/etc/vintf/manifest/vendor.qti.gnss@4.2-service.xml
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
@@ -389,7 +389,7 @@ vendor/lib/libgps.utils.so
 vendor/lib/libloc_core.so
 vendor/lib/liblocation_api.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so
-vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so
+vendor/lib64/hw/vendor.qti.gnss@4.2-impl.so
 vendor/lib64/libaoa.so
 vendor/lib64/libbatching.so
 vendor/lib64/libcdfw.so
@@ -419,8 +419,10 @@ vendor/lib64/vendor.qti.gnss@1.2.so
 vendor/lib64/vendor.qti.gnss@2.0.so
 vendor/lib64/vendor.qti.gnss@2.1.so
 vendor/lib64/vendor.qti.gnss@3.0.so
-vendor/lib64/vendor.qti.gnss@4.0-service.so
 vendor/lib64/vendor.qti.gnss@4.0.so
+vendor/lib64/vendor.qti.gnss@4.1.so
+vendor/lib64/vendor.qti.gnss@4.2-service.so
+vendor/lib64/vendor.qti.gnss@4.2.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 
 # GNSS configs
@@ -763,7 +765,7 @@ vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 
 # Power-off alarm
--product/app/PowerOffAlarm/PowerOffAlarm.apk
+-system_ext/app/PowerOffAlarm/PowerOffAlarm.apk
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/power_off_alarm
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
