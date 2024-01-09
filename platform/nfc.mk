@@ -10,7 +10,6 @@ PRODUCT_PACKAGES += \
     Tag
 
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2.vendor \
     android.hardware.nfc-service.nxp \
     libchrome.vendor
 
