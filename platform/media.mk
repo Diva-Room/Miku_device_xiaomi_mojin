@@ -33,5 +33,3 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libstagefrighthw
 
-# Shim for Dolby codec
-PRODUCT_PACKAGES += libshim
