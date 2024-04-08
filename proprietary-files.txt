@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from Nothing Phone (1) A063_2.5.1
+# All unpinned blobs below are extracted from ZIJIN_OS1.0.1.0.ULPCNXM
 # ACDB - from ZIJIN_V14.0.5.0.TLPCNXM
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb|01c7984a20e4d36a27b0e7227a7d5c28d2bb0e2a
 vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb|e205e84ca538a7c5591cd5b6b30bdfdbcdb9fb8a
@@ -126,11 +126,11 @@ vendor/lib64/libcdsprpc.so
 vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
 
-# Charger (Xiaomi Turbo Charge) - from MONA_V14.0.6.0.TKVCNXM
-vendor/bin/batterysecret|7b4df07fcc408855c54ce47cead3516d7a6055b8
-vendor/bin/hvdcp_opti|ee091895e824d9848efaa37a2f732e5402b018c1
-vendor/bin/init.qti.chg_policy.sh|9a96b05abdfe149eb8a7e20a791284e84b5fffe0
-vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|29b23be4f604282abf715f86aec9697175a9aaad
+# Charger (Xiaomi Turbo Charge)
+vendor/bin/batterysecret
+vendor/bin/hvdcp_opti
+vendor/bin/init.qti.chg_policy.sh
+vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 
 # CNE
 -vendor/app/CneApp/CneApp.apk
@@ -250,52 +250,52 @@ vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 
-# Consumer IR - from MONA_V14.0.6.0.TKVCNXM
-vendor/lib64/hw/consumerir.lahaina.so|dc6cf8314795b8eb463a2c9336e796a652950f8c
+# Consumer IR
+vendor/lib64/hw/consumerir.lahaina.so
 
-# Display
-vendor/etc/display/DPU660.xml
-vendor/etc/display/DPU670.xml
-vendor/etc/display/DPU720.xml
-vendor/etc/display/DPU7__.xml
-vendor/etc/snapdragon_color_libs_config.xml
-vendor/lib64/libdisplayqos.so
-vendor/lib64/libdisplayskuutils.so
-vendor/lib64/libdpp_manager.so
-vendor/lib64/libdpps.so
-vendor/lib64/libqrtrclient.so
-vendor/lib64/libqseed3.so
-vendor/lib64/librcmask.so
-vendor/lib64/libsdm-color.so
-vendor/lib64/libsdm-colormgr-algo.so
-vendor/lib64/libsdm-diag.so
-vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmextension.so
-vendor/lib64/libtinyxml2_1.so
+# Display - from Nothing Phone (1) A063_2.5.3
+vendor/etc/display/DPU660.xml|b26dd73e361546d89bf3d7082a471703dc6ac2cb
+vendor/etc/display/DPU670.xml|e5131a60ceff29ca5eb561eec7eddadef1d0486f
+vendor/etc/display/DPU720.xml|4e54e8712d65773eb87867bf64a4cb98ea9bb8c3
+vendor/etc/display/DPU7__.xml|c056f3cb9fa123ca3de5b2a9775c184dddf25b9d
+vendor/etc/snapdragon_color_libs_config.xml|20be96679760b14cd63577a17f4a040e543254dd
+vendor/lib64/libdisplayqos.so|aa222f4c1a2d2fb60944c44f8a82621d6bc75184
+vendor/lib64/libdisplayskuutils.so|77a89896ee24fcf26ac2fadbf901d45c668e704e
+vendor/lib64/libdpp_manager.so|a15d7dba507e579b7a6f2a0dfbc1816f9da3cf76
+vendor/lib64/libdpps.so|294b81c975f631dd71cfcfb663d9d8af66704803
+vendor/lib64/libqrtrclient.so|2474a708487c269c04afffbf755fff1686c6011c
+vendor/lib64/libqseed3.so|d62c37baf259250cadfcff8734e82054ed87bb96
+vendor/lib64/librcmask.so|8feb479fe590b6aec282ce3342574d9113f80516
+vendor/lib64/libsdm-color.so|a83576915a146492d430711e273b9af9a95d4fed
+vendor/lib64/libsdm-colormgr-algo.so|5416a3b9b0735099c9b86f451f41386711787ea4
+vendor/lib64/libsdm-diag.so|218bae2b1300bd562f813a849244e843c05a891e
+vendor/lib64/libsdm-disp-vndapis.so|dc3ff8c971bbcb0d1b9e5079324d1d1d05a1fd39
+vendor/lib64/libsdmextension.so|f30b846c9a4cce9a7b7ca1c2d4d2aaf02842daf0
+vendor/lib64/libtinyxml2_1.so|11ceb3f1e7650c41621d47e5ec5567c8f466086e
 
-# Display (HDR)
-vendor/lib64/libhdr_tm.so
+# Display (HDR) - from Nothing Phone (1) A063_2.5.3
+vendor/lib64/libhdr_tm.so|7954c5cd5c0b23fe8d0609361c22d24c59f1448b
 
-# Display (Stock) - from MONA_V14.0.6.0.TKVCNXM
-vendor/etc/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.xml|6fb274d8b227cb62a8d9005e8b39c8d3abb2e6ec|deb1c23994ef882f8c290f39b1497240bfdbd1fb
+# Display (Stock)
+vendor/etc/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.xml
 
-# Display postprocessing
-vendor/bin/hw/vendor.display.color@1.0-service
-vendor/bin/ppd
-vendor/bin/qdcmss
-vendor/etc/init/qdcmss.rc
-vendor/etc/init/vendor.display.color@1.0-service.rc
-vendor/lib64/libdisp-aba.so
-vendor/lib64/libqdcm-mode-parser.so
-vendor/lib64/libsnapdragoncolor-manager.so
-vendor/lib64/libsnapdragoncolor-qdcm.so
-vendor/lib64/vendor.display.color@1.0.so
-vendor/lib64/vendor.display.color@1.1.so
-vendor/lib64/vendor.display.color@1.2.so
-vendor/lib64/vendor.display.color@1.3.so
-vendor/lib64/vendor.display.color@1.4.so
-vendor/lib64/vendor.display.color@1.5.so
-vendor/lib64/vendor.display.postproc@1.0.so
+# Display postprocessing - from Nothing Phone (1) A063_2.5.3
+vendor/bin/hw/vendor.display.color@1.0-service|cd08e02010826714d52e44d655a33faf537e076d
+vendor/bin/ppd|4fcb818e39c813570fdbfaa9726274986e190e04
+vendor/bin/qdcmss|2dd2d71247c85a1bb6b3168d53cd844cb387f75c
+vendor/etc/init/qdcmss.rc|53d78d686678c4f923a9ec4ace7d4d3575b13788
+vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
+vendor/lib64/libdisp-aba.so|3ff1c1d30d96c3ce3608378b2afcc75b892845cb
+vendor/lib64/libqdcm-mode-parser.so|207143ab4dda0886bde2a0333d7a1bcd7af6f8e1
+vendor/lib64/libsnapdragoncolor-manager.so|e7f55a1ba843bb570afa6bbf16bb61dc01ec74ea
+vendor/lib64/libsnapdragoncolor-qdcm.so|673c41753603bacb197674df567723dfd928384e
+vendor/lib64/vendor.display.color@1.0.so|76e84677fefbe97a0c9d33646fca2834e77a3b6f
+vendor/lib64/vendor.display.color@1.1.so|3aa79bbf7592472d87c29f91a106141eff8a9a74
+vendor/lib64/vendor.display.color@1.2.so|8b5ed3c2b39aa38f6194f2ed3872166f88b8ad98
+vendor/lib64/vendor.display.color@1.3.so|1ff2c50e6b8c0bc95f3476aa5b066024e0fc9261
+vendor/lib64/vendor.display.color@1.4.so|6e4cffe7b1a287dee9c4fb9b8e08ddac50b916b4
+vendor/lib64/vendor.display.color@1.5.so|0474d3d9123fd38538a3cd1e3c267608d71b7126
+vendor/lib64/vendor.display.postproc@1.0.so|f82e704e275c25ef27ff37cdbbfb2360e53c2611
 
 # DPM
 -system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
@@ -338,12 +338,12 @@ vendor/lib64/libspl.so
 vendor/lib64/libssd.so
 vendor/lib64/libtrustedapploader.so
 
-# DRM (Widevine) - from MONA_V14.0.6.0.TKVCNXM
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
-vendor/bin/hw/android.hardware.drm@1.3-service.widevine|07b8d21fb76abd377428a6d1b52d6aadfc5892a1
-vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|a9ce64f68c86725c06c1b1429e90b04ff96ebf60
-vendor/lib64/libwvhidl.so|3052f977688685861ec929e2b36a63980cae0337
-vendor/lib64/mediadrm/libwvdrmengine.so|0bf46f9297797c8ce7e8f6f4302b8c33db3d7e6b
+# DRM (Widevine)
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
+vendor/bin/hw/android.hardware.drm@1.3-service.widevine
+vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
+vendor/lib64/libwvhidl.so
+vendor/lib64/mediadrm/libwvdrmengine.so
 
 # DSP service
 vendor/bin/dspservice
@@ -362,7 +362,6 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # GNSS
 -vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
--vendor/etc/vintf/manifest/vendor.qti.gnss@4.2-service.xml
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
@@ -382,7 +381,6 @@ vendor/lib/libgps.utils.so
 vendor/lib/libloc_core.so
 vendor/lib/liblocation_api.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so
-vendor/lib64/hw/vendor.qti.gnss@4.2-impl.so
 vendor/lib64/libaoa.so
 vendor/lib64/libbatching.so
 vendor/lib64/libcdfw.so
@@ -413,30 +411,27 @@ vendor/lib64/vendor.qti.gnss@2.0.so
 vendor/lib64/vendor.qti.gnss@2.1.so
 vendor/lib64/vendor.qti.gnss@3.0.so
 vendor/lib64/vendor.qti.gnss@4.0.so
-vendor/lib64/vendor.qti.gnss@4.1.so
-vendor/lib64/vendor.qti.gnss@4.2-service.so
-vendor/lib64/vendor.qti.gnss@4.2.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 
 # GNSS configs
 vendor/etc/apdr.conf
 vendor/etc/flp.conf
-vendor/etc/gnss_antenna_info.conf
 vendor/etc/gpfspath_oem_config.xml
 vendor/etc/gps.conf
+vendor/etc/gps_diag.cfg
 vendor/etc/izat.conf
 vendor/etc/lowi.conf
 vendor/etc/sap.conf
 vendor/etc/xtwifi.conf
 
-# Graphics firmware - from MONA_V14.0.6.0.TKVCNXM
-vendor/firmware/a660_gmu.bin|607402e7c1c49f486258e5e02780e74fcf7311e1
-vendor/firmware/a660_sqe.fw|8e6becfbcff6ff6e64b5edb6f135cc6f656d4ee1
-vendor/firmware/a660_zap.b00|8db2ba7a6da65a4d35d9c5da0a49493efd27913a
-vendor/firmware/a660_zap.b01|524dcff0b1f90e25ad826f4dad4113c99e42de5e
-vendor/firmware/a660_zap.b02|bcbdf56fca034c66a9e44242587ed25a1ffe2abe
-vendor/firmware/a660_zap.elf|f90a99b28f7937081d93e66d9ace3916622245c3
-vendor/firmware/a660_zap.mdt|6e5e39025131505b82a6885185764b558fca30fe
+# Graphics firmware
+vendor/firmware/a660_gmu.bin
+vendor/firmware/a660_sqe.fw
+vendor/firmware/a660_zap.b00
+vendor/firmware/a660_zap.b01
+vendor/firmware/a660_zap.b02
+vendor/firmware/a660_zap.elf
+vendor/firmware/a660_zap.mdt
 
 # Graphics
 vendor/gpu/kbc/sequence_manifest.bin
@@ -475,14 +470,14 @@ vendor/lib64/libgsl.so
 vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
 
-# Hotword Enrollment
-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
-system_ext/framework/com.android.hotwordenrollment.common.util.jar
+# Hotword Enrollment - from Nothing Phone (1) A063_2.5.3
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|3b645024a832587473af1a758d5cf86470b3a030
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|3441668e28368b9f86e7edc78c70fe042d686f6b
+-system_ext/framework/com.android.hotwordenrollment.common.util.jar|e324dc627177f92a4f289e302bbbea581720cbde
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|99cfd80965c170f4885a7dd62c0eaad1a0c7840f
 
-# IFAA  - from MONA_V14.0.6.0.TKVCNXM
--vendor/app/IFAAService/IFAAService.apk|e7db83456fdab6e6c23efab6dfeaa498abb527f0
+# IFAA
+-vendor/app/IFAAService/IFAAService.apk
 
 # IMS
 system_ext/lib64/lib-imsvideocodec.so
@@ -528,46 +523,32 @@ vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.5.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.7.so
-vendor/lib64/vendor.qti.hardware.radio.ims@1.8.so
-vendor/lib64/vendor.qti.hardware.radio.ims@1.9.so
 vendor/lib64/vendor.qti.ims.callcapability@1.0.so
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so
-vendor/lib64/vendor.qti.ims.configservice@1.0.so
-vendor/lib64/vendor.qti.ims.configservice@1.1.so
-vendor/lib64/vendor.qti.ims.connection@1.0.so
 vendor/lib64/vendor.qti.ims.factory@1.0.so
 vendor/lib64/vendor.qti.ims.factory@1.1.so
-vendor/lib64/vendor.qti.ims.factory@2.0.so
-vendor/lib64/vendor.qti.ims.factory@2.1.so
-vendor/lib64/vendor.qti.ims.factory@2.2.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so
 vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so
-vendor/lib64/vendor.qti.ims.rcssip@1.0.so
-vendor/lib64/vendor.qti.ims.rcssip@1.1.so
-vendor/lib64/vendor.qti.ims.rcssip@1.2.so
-vendor/lib64/vendor.qti.ims.rcsuce@1.0.so
-vendor/lib64/vendor.qti.ims.rcsuce@1.1.so
-vendor/lib64/vendor.qti.ims.rcsuce@1.2.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so
 
-# IPA - from MONA_V14.0.6.0.TKVCNXM
-vendor/etc/init/ipa_fws.rc|f1826b81077f51470c97781823f109f12361ac8b
-vendor/firmware/yupik_ipa_fws.b00|f16e03fc90554add646c29ad2a9eb1cfb34aea01
-vendor/firmware/yupik_ipa_fws.b01|2a0b32bbf0b20258ec0c3941b88de4c246690bfd
-vendor/firmware/yupik_ipa_fws.b02|c0f5259e45f67f322459e7afde30cba608b9ea5f
-vendor/firmware/yupik_ipa_fws.b03|c07cfef57f8f694b4cee41e78700614efbedf2bc
-vendor/firmware/yupik_ipa_fws.b04|7aa0ec649f20af523f21c6e19014987f86f18dff
-vendor/firmware/yupik_ipa_fws.elf|7c51b0e08980122422791ac4e39fd4f0a775b4b8
-vendor/firmware/yupik_ipa_fws.mdt|247aee68845511135cad95ab87bd43b649cf1310
+# IPA
+vendor/etc/init/ipa_fws.rc
+vendor/firmware/yupik_ipa_fws.b00
+vendor/firmware/yupik_ipa_fws.b01
+vendor/firmware/yupik_ipa_fws.b02
+vendor/firmware/yupik_ipa_fws.b03
+vendor/firmware/yupik_ipa_fws.b04
+vendor/firmware/yupik_ipa_fws.elf
+vendor/firmware/yupik_ipa_fws.mdt
 
 # IRQ balance
 vendor/bin/msm_irqbalance
 
-# Kernel - from MONA_V14.0.6.0.TKVCNXM
-vendor/bin/vendor_modprobe.sh|edf2ef8fd4300af6bf146931b56f80801edbe5f3
+# Kernel
+vendor/bin/vendor_modprobe.sh
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
@@ -577,20 +558,20 @@ vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
 
-# Listen - from MONA_V14.0.6.0.TKVCNXM
-vendor/lib/hw/sound_trigger.primary.lahaina.so|fa301aea80a4ae7c54e9c7a2c7c72de9ad27ed3e
-vendor/lib/libcapiv2svacnn.so|a2219c156bb4978ae8444120417ca1f34e35504a
-vendor/lib/libcapiv2svarnn.so|165509096605c4afd585762a2f6e467f55954a23
-vendor/lib/libcapiv2vop.so|19979321e66a3b01d5d51ab6a517530c8c4c05af
-vendor/lib/libgcs-calwrapper.so|4d8de1e917a797ac429dba90a14156faa35cb66a
-vendor/lib/libgcs-ipc.so|ecf5f97a449125e8c453dc2283a6475025c8df5e
-vendor/lib/libgcs-osal.so|9ac399fbee4e73561c0a3f397fe6ffdc9c42892c
-vendor/lib/libgcs.so|52af1f604654a396dccb0720e0889ed4c1b425d7
-vendor/lib/liblistensoundmodel2.so|25b62bedc02e5584706c410b76e4f1874dd4ea46
-vendor/lib/libmulawdec.so|f72724da37b96a8cdce1a9e62d935c593d222096
-vendor/lib64/libcapiv2svacnn.so|75e7191bb291f18f909e19092052a66f942b3fba
-vendor/lib64/libcapiv2svarnn.so|c2030da244d21e6fa52102699bfc48acdaf2a41a
-vendor/lib64/libcapiv2vop.so|9775a816f5c05b1a09e6bdbcc57fde765ee63e7c
+# Listen
+vendor/lib/hw/sound_trigger.primary.lahaina.so
+vendor/lib/libcapiv2svacnn.so
+vendor/lib/libcapiv2svarnn.so
+vendor/lib/libcapiv2vop.so
+vendor/lib/libgcs-calwrapper.so
+vendor/lib/libgcs-ipc.so
+vendor/lib/libgcs-osal.so
+vendor/lib/libgcs.so
+vendor/lib/liblistensoundmodel2.so
+vendor/lib/libmulawdec.so
+vendor/lib64/libcapiv2svacnn.so
+vendor/lib64/libcapiv2svarnn.so
+vendor/lib64/libcapiv2vop.so
 
 # Media
 system_ext/lib/libmmosal.so
@@ -617,109 +598,107 @@ vendor/lib64/libqcodec2_utils.so
 vendor/lib64/libqcodec2_v4l2codec.so
 vendor/lib64/libvideooptfeature.so
 
-# Media Profiles - from MONA_V14.0.6.0.TKVCNXM
--vendor/etc/vintf/manifest/c2_manifest_vendor.xml|735eb3238894207a95d3f5133422b9f76927a73f|dfaad7360e85bf2d1a8293bb878a4f0edc70b1db
-vendor/bin/hw/vendor.qti.media.c2@1.0-service|d2f330fa2f4b2548e36155cddba193b6695f00a7
-vendor/etc/init/init.qti.media.rc|ab36de06c01003fa6f665bc38709417c26d99d62
-vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0804f6620678
-vendor/etc/media/video_system_specs.json|d0732bff6336fa90adfcf6ca010e0e9d0114292e
-vendor/etc/media_codecs.xml|39f4ce9b3cf8cbc4efd9679765a341f7b6181423
-vendor/etc/media_codecs_dolby_audio.xml|a794eb15fc198d0285510260025cd99b53fa174f
-vendor/etc/media_codecs_performance.xml|d112c699a4ae74b5cd149506e6c338d6a5c24f47
-vendor/etc/media_codecs_performance_yupik_v0.xml|9b77e64702a59738ef081ac5576cd589d000ba0b
-vendor/etc/media_codecs_performance_yupik_v1.xml|cf40c75f75df3bcd03a2e8e9717c55721c4cb796
-vendor/etc/media_codecs_system_default_yupik.xml|5134cc43f9a4957b682d461cd7f08a7a3f0cafe1
-vendor/etc/media_codecs_vendor_audio.xml|fdf23085b370ca296e2878d398a2c37dd25e45c0
-vendor/etc/media_codecs_with_dolby_yupik.xml|ef56ecbb1714bb00fea34a2976cbe772d8b1b37c
-vendor/etc/media_codecs_yupik_v0.xml|239a70ed006303819d5b3d3347df5b1bdee3fa54
-vendor/etc/media_codecs_yupik_v1.xml|70baea279d727847af7b85e60c0bd98d4db65379|fc1af735530efaacc7329d825c622cafe83b6e6b
-vendor/etc/media_lahaina/video_system_specs.json|fa29471cada89e61aba80dc4dacbd7c9d2f86d5e|34016c39e4756c66f20deb29453df684774bffba
-vendor/etc/media_profiles.xml|981dd4a7ffb9020aa1142930ff3ae6d07bda12aa
-vendor/etc/media_profiles_V1_0.xml|2da4310e65720a36ee8422228959795f467f102e
-vendor/etc/media_profiles_lahaina.xml|8c45fd105e1ac7ecd020a24d4243602432ede04f
-vendor/etc/media_profiles_lahaina_vendor.xml|8c45fd105e1ac7ecd020a24d4243602432ede04f
-vendor/etc/media_profiles_vendor.xml|8c45fd105e1ac7ecd020a24d4243602432ede04f
-vendor/etc/media_profiles_yupik_v0.xml|25f2ebb3b74af0d2f17311dab963eacf209d8726
-vendor/etc/media_profiles_yupik_v1.xml|6cef1fff47e283db9478febfe3997a11e42e53a5
-vendor/etc/media_yupik_v0/video_system_specs.json|87bc9257af53d43addf1190d39a548a8773835e8
-vendor/etc/media_yupik_v1/video_system_specs.json|87bc9257af53d43addf1190d39a548a8773835e8|373b43e4c6288257522fb3741abe0cf981f6fdf8
-vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy|3dd480257e5c2ad2f776f49783a40904e21ef393
-vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy|a134d3d5d74294ca8164056b42389b1c7dbb2b65
-vendor/etc/video_system_specs.json|fa29471cada89e61aba80dc4dacbd7c9d2f86d5e
+# Media Profiles
+-vendor/etc/vintf/manifest/c2_manifest_vendor.xml
+vendor/bin/hw/vendor.qti.media.c2@1.0-service
+vendor/etc/init/init.qti.media.rc
+vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
+vendor/etc/media/video_system_specs.json
+vendor/etc/media_codecs.xml
+vendor/etc/media_codecs_dolby_audio.xml
+vendor/etc/media_codecs_performance.xml
+vendor/etc/media_codecs_performance_yupik_v0.xml
+vendor/etc/media_codecs_performance_yupik_v1.xml
+vendor/etc/media_codecs_system_default_yupik.xml
+vendor/etc/media_codecs_vendor_audio.xml
+vendor/etc/media_codecs_with_dolby_yupik.xml
+vendor/etc/media_codecs_yupik_v0.xml
+vendor/etc/media_codecs_yupik_v1.xml
+vendor/etc/media_lahaina/video_system_specs.json
+vendor/etc/media_profiles.xml
+vendor/etc/media_profiles_V1_0.xml
+vendor/etc/media_profiles_lahaina.xml
+vendor/etc/media_profiles_lahaina_vendor.xml
+vendor/etc/media_profiles_vendor.xml
+vendor/etc/media_profiles_yupik_v0.xml
+vendor/etc/media_profiles_yupik_v1.xml
+vendor/etc/media_yupik_v0/video_system_specs.json
+vendor/etc/media_yupik_v1/video_system_specs.json
+vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy
+vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy
+vendor/etc/video_system_specs.json
 
-# Media Dolby Vision Codec - from MONA_V14.0.6.0.TKVCNXM
-vendor/bin/hw/dolbycodec2|186f07732444177f5d719c31d99a7420a54cb025|1942273e7ceed03a5df97ff17e5d16acd1e52ca8
-vendor/etc/dolby_vision.cfg|05c918ea097ac9cc07daeb0b7f292f6cc0edc2eb
-vendor/etc/init/dolbycodec2.rc|1ea8b363e94fd4f5410cadceb30de8229fb38045
-vendor/lib/c2.dolby.avc.dec.so|23ad4243a0f573897eb456db214e6ead4d72789c
-vendor/lib/c2.dolby.avc.sec.dec.so|de726a68a30a8a8f2b2099358d80a7e8831a1f0c
-vendor/lib/c2.dolby.client.so|33b96ef37f0708f44b3726ef376bc64722d2ed58
-vendor/lib/c2.dolby.egl.so|f32eedbc78270fe607ac29244b2f19d6aef46984
-vendor/lib/c2.dolby.hevc.dec.so|46b7852a2f74439c79d558fed875b744f2b56ff0
-vendor/lib/c2.dolby.hevc.sec.dec.so|209301f238b3eba6ea51594fc8b202527b7234ec
-vendor/lib/c2.dolby.store.so|08d26054d08062a508e53ad2751baa8590a6d3cf
-vendor/lib/libavservices_minijail_vendor.so|de9bde916048cbd7e8790c0f5877ba8151bdbd95
-vendor/lib/libcodec2_hidl@1.0.so:vendor/lib/libcodec2_hidl@1.0.stock.so|18d1fab91c0812ca16e3c2ffdc871645bfdc07c3|443ccbe72e40a0dfb6d8270174aa0a372cbfc181
-vendor/lib/libcodec2_soft_common.so|7dd4e5f4ad411365ba97e0f2e5aa790971b3ff03
-vendor/lib/libcodec2_vndk.so:vendor/lib/libcodec2_vndk.stock.so|6e0fc49347a17d114fc505036530ddf6d0f8548d|42e3109ed49a47106f2834320d99da34c41b8221
-vendor/lib/libdolbyottcameracontrol.so|3758b2541004c5d9a2935ed134afbabb66d6a315
-vendor/lib/libdovi.so|d88f42c44f420cc04fb019dd2f990ed304c4c7c0
-vendor/lib/libsfplugin_ccodec_utils.so|7d2c82483128507e5df7fef190c8d8a7cda46fb7
-vendor/lib64/libavservices_minijail_vendor.so|58a1254dca3731bff67fa37b98f9bbba6ac54240
+# Media Dolby Vision Codec
+system_ext/lib64/libdovi_omx.so
+vendor/bin/hw/dolbycodec2
+vendor/etc/dolby_vision.cfg
+vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc
+vendor/lib/libcodec2_hidl@1.0.so:vendor/lib/libcodec2_hidl@1.0.stock.so
+vendor/lib/libcodec2_vndk.so:vendor/lib/libcodec2_vndk.stock.so
+vendor/lib64/c2.dolby.client.so
+vendor/lib64/c2.dolby.hevc.dec.so
+vendor/lib64/c2.dolby.hevc.sec.dec.so
+vendor/lib64/c2.dolby.store.so
+vendor/lib64/libavservices_minijail_vendor.so
+vendor/lib64/libcodec2_soft_common.so
+vendor/lib64/libcodec2_soft_ozodec.so
+vendor/lib64/libcodec2_soft_ozoenc.so
+vendor/lib64/libdolbyottcameracontrol.so
+vendor/lib64/libsfplugin_ccodec_utils.so
 
-# Media VPU FW - from MONA_V14.0.6.0.TKVCNXM
-vendor/firmware/vpu20_1v.b00|fd02481b651e371c255ec709a09846572533aa10
-vendor/firmware/vpu20_1v.b01|7c1be54a4a4a3c8f10a1fb0f67bda25f230dc187
-vendor/firmware/vpu20_1v.b02|8f8f4455716e44ae53d19b01900ea48b4b0a2b96
-vendor/firmware/vpu20_1v.b03|7772b18b16e520641e8051fd6284384e9b0e1939
-vendor/firmware/vpu20_1v.b04|dc6fe7b8d020a4d02f4f4fe073f5f4f759be25dd
-vendor/firmware/vpu20_1v.b05|f726e7fa233485e02ef6172833d51353627aa81d
-vendor/firmware/vpu20_1v.b06|e19854e03b52cc67d7db620f54609b66d1b85f54
-vendor/firmware/vpu20_1v.b07|0b403b94f400e8f76ac5f5f18f6957318ec2a582
-vendor/firmware/vpu20_1v.b08|86a5ed4d22759036806d9321f8e509628f64c5b6
-vendor/firmware/vpu20_1v.b09|a31ac374db60d9ec259ca1326bef394c9503f96b
-vendor/firmware/vpu20_1v.b10|b22738e1537eeca46a21e4c6d30586985b196590
-vendor/firmware/vpu20_1v.b11|da39a3ee5e6b4b0d3255bfef95601890afd80709
-vendor/firmware/vpu20_1v.b12|da39a3ee5e6b4b0d3255bfef95601890afd80709
-vendor/firmware/vpu20_1v.b13|da39a3ee5e6b4b0d3255bfef95601890afd80709
-vendor/firmware/vpu20_1v.b14|da39a3ee5e6b4b0d3255bfef95601890afd80709
-vendor/firmware/vpu20_1v.b15|da39a3ee5e6b4b0d3255bfef95601890afd80709
-vendor/firmware/vpu20_1v.b16|da39a3ee5e6b4b0d3255bfef95601890afd80709
-vendor/firmware/vpu20_1v.b17|da39a3ee5e6b4b0d3255bfef95601890afd80709
-vendor/firmware/vpu20_1v.b18|da39a3ee5e6b4b0d3255bfef95601890afd80709
-vendor/firmware/vpu20_1v.b19|c1756e0567d10a1173f481cd367ff4637b2dd77f
-vendor/firmware/vpu20_1v.mbn|5ed1e6d980f4269f0403b04db20934e2f20abdff
-vendor/firmware/vpu20_1v.mdt|88214ce4fe842a1b5a0babe2f02a03f86de21ab9
-vendor/firmware/vpu20_1v_unsigned.mbn|a9388297a1b789c0793cb8faa2590296943413a8
+# Media VPU FW
+vendor/firmware/vpu20_1v.b00
+vendor/firmware/vpu20_1v.b01
+vendor/firmware/vpu20_1v.b02
+vendor/firmware/vpu20_1v.b03
+vendor/firmware/vpu20_1v.b04
+vendor/firmware/vpu20_1v.b05
+vendor/firmware/vpu20_1v.b06
+vendor/firmware/vpu20_1v.b07
+vendor/firmware/vpu20_1v.b08
+vendor/firmware/vpu20_1v.b09
+vendor/firmware/vpu20_1v.b10
+vendor/firmware/vpu20_1v.b11
+vendor/firmware/vpu20_1v.b12
+vendor/firmware/vpu20_1v.b13
+vendor/firmware/vpu20_1v.b14
+vendor/firmware/vpu20_1v.b15
+vendor/firmware/vpu20_1v.b16
+vendor/firmware/vpu20_1v.b17
+vendor/firmware/vpu20_1v.b18
+vendor/firmware/vpu20_1v.b19
+vendor/firmware/vpu20_1v.mbn
+vendor/firmware/vpu20_1v.mdt
+vendor/firmware/vpu20_1v_unsigned.mbn
 
-# Mlipay - from MONA_V14.0.6.0.TKVCNXM
--vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml|27aaea2ab58ace6555a634dc60ea062736342eb4
-vendor/bin/mlipayd@1.1|9f41a62c62f584c4bf4a52115fc09678b163ad00
-vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc|b5ab5bcd031fe4d9781b5911c0595eaeac8b80ea
-vendor/lib64/libmlipay.so|4ed4ee4879fcd71dda4a5425c71ec099231d122d
-vendor/lib64/libmlipay@1.1.so|c514d99addea1d94d24645b9560681b2a89b16fa
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so|b4fc7cfb1d5520212bd19fbec760a091f44ec93c
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so|eb460f5ff22150d98574b3c20920b1d9b45e6898
-vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so|55ca5404bbb1cb4bc0dc9a11b73f1df667e0a3ba
+# Mlipay
+-vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml
+vendor/bin/mlipayd@1.1
+vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
+vendor/lib64/libmlipay.so
+vendor/lib64/libmlipay@1.1.so
+vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
+vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
+vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
 
-# Neural networks - from MONA_V14.0.6.0.TKVCNXM
--vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml|ac07e83ba7c2a87a2f216f04ec84df4539ea8507
-vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti|91e196b8982cc700d177e65856b9cefa6cc61d9b
-vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc|4b7f2c5f914f3eef38f19936c0a06efc09b5b28c
-vendor/lib64/libQnnHtpAltPrepStub.so|d6aa4ce9d161b0107dd62bb2325fcc1f3c772b30
-vendor/lib64/libQnnHtpStub.so|c311908cda0bbcaf6c7bea75312c867a9c008a35
-vendor/lib64/unnhal-acc-common.so|85794b7757d3d80090326f8eddeefdf928eab259
-vendor/lib64/unnhal-acc-gpu.so|71d6930c97ea9256650bb477905b06806c6c143f
-vendor/lib64/unnhal-acc-htp.so|59e5bc6fab0e15310cb15237c8f0a984edb427be
+# Neural networks
+-vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml
+vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti
+vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc
+vendor/lib64/libQnnHtpAltPrepStub.so
+vendor/lib64/libQnnHtpStub.so
+vendor/lib64/unnhal-acc-common.so
+vendor/lib64/unnhal-acc-gpu.so
+vendor/lib64/unnhal-acc-htp.so
 
-# NFC - from MONA_V14.0.6.0.TKVCNXM
-vendor/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so|53343c7c5f3ac220b4e1a51576eb1d1264c77a4f
+# NFC
+vendor/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so
 
-# NVRAM - from MONA_V14.0.6.0.TKVCNXM
-vendor/bin/nv_mac|be7386b542eeb66ff36e0924c423f5d0320cdb20
+# NVRAM
+vendor/bin/nv_mac
 
-# Offline Charging - from MONA_V14.0.6.0.TKVCNXM
-system/bin/charger:system/bin/chargeonlymode|28d09becba3da82f0ddbd2dda4cd5cd76bcf094f
+# Offline Charging
+system/bin/charger:system/bin/chargeonlymode
 
 # OMX
 vendor/lib/libAlacSwDec.so
@@ -862,16 +841,12 @@ vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.qti.tftp.rc
 vendor/etc/qcril_database/qcrilNr.db
 vendor/etc/qcril_database/upgrade/config/10.0_config.sql
-vendor/etc/qcril_database/upgrade/config/11.0_config.sql
 vendor/etc/qcril_database/upgrade/config/6.0_config.sql
 vendor/etc/qcril_database/upgrade/config/7.0_config.sql
 vendor/etc/qcril_database/upgrade/config/8.0_config.sql
 vendor/etc/qcril_database/upgrade/config/9.0_config.sql
 vendor/etc/qcril_database/upgrade/other/0_initial_qcrilnr.sql
 vendor/etc/qcril_database/upgrade/other/10_version_update_ecc_table.sql
-vendor/etc/qcril_database/upgrade/other/11_version_update_ecc_table.sql
-vendor/etc/qcril_database/upgrade/other/12_version_update_ecc_table.sql
-vendor/etc/qcril_database/upgrade/other/14_version_update_ecc_table.sql
 vendor/etc/qcril_database/upgrade/other/1_version_intro_qcrilnr.sql
 vendor/etc/qcril_database/upgrade/other/2_version_add_wps_config_qcrilnr.sql
 vendor/etc/qcril_database/upgrade/other/3_version_update_wps_config_qcrilnr.sql
@@ -887,9 +862,11 @@ vendor/etc/ssg/ta_config.json
 vendor/etc/ssg/tz_whitelist.json
 vendor/lib64/deviceInfoServiceModuleNr.so
 vendor/lib64/libconfigdb.so
+vendor/lib64/libhydra_common.so
 vendor/lib64/liblqe.so
 vendor/lib64/libmdmdetect.so
 vendor/lib64/libminkdescriptor.so
+vendor/lib64/libmodemapi.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libnetmgr_common.so
 vendor/lib64/libnetmgr_nr_fusion.so
@@ -925,7 +902,6 @@ vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so
-vendor/lib64/vendor.qti.hardware.radio.lpa@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so
@@ -935,7 +911,6 @@ vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.5.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.6.so
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.7.so
 vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so
@@ -944,82 +919,82 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 
-# Sensors - from MONA_V14.0.6.0.TKVCNXM
-vendor/bin/init.qcom.sensors.sh|454c6de8c65b9ad1c41f063544871a4ba0665689
-vendor/bin/sensors.qti|b54ff078ad64e4278cefbad1f1a42a80f3129f74
-vendor/bin/sscrpcd|7b4e6726b976ae97c209d2b16d71ee920a48e254
-vendor/etc/elliptic_sensor.xml|2a38626bb26d9def04d2a34167440c2ee1a41bc1
-vendor/etc/init/init.vendor.sensors.rc|8d286f50fd261dc8843c6a208386b535cc07641e
-vendor/etc/init/vendor.sensors.qti.rc|f34fc966af816b50f10ae7520b33863961a14478
-vendor/etc/init/vendor.sensors.sscrpcd.rc|df52901f1ad0fbc97d6070e28896a6be40154814
-vendor/lib/libsnsapi.so|9b6a5d0b27e03251033883fee19d1d35893f57fd
-vendor/lib64/libnanopb.so|c9009f4d360cf826e6a3dadaab4f976f97c9384d
-vendor/lib64/libnotifyaudiohal.so|dacd0783b6b06c2ccb60510bf62d8cb16e42dcdd
-vendor/lib64/libsensorcal.so|6c7275b7fd887475e3e090284ab56d115ea1ecc1
-vendor/lib64/libsensorslog.so|8df3d0d6ccf65d88b98788fd65bd1918c022a264
-vendor/lib64/libsns_api.so|57ead1330cd194a009f764318d9b64759d1dbc31
-vendor/lib64/libsns_device_mode_stub.so|4c2b7642a55073f1db79d7dc2114c40e2ac6c51b
-vendor/lib64/libsns_fastRPC_util.so|74f066bdad58f2c97a6175c30b3eb1a0bd607936
-vendor/lib64/libsns_low_lat_stream_stub.so|1609464e3a9115bf108594420d1abd3f96267d11
-vendor/lib64/libsns_registry_skel.so|dc34768208cfb93b01762ea7d2c6a052c8a8608a
-vendor/lib64/libsnsapi.so|d3a0a75536eeb1014cb6871191f0c3c88a333600
-vendor/lib64/libsnsdiaglog.so|e06a5c86eafedd412f5823463af83e89ba33c865
-vendor/lib64/libssc.so|9224cc752069f4f4b22a77dcbb9b094a41698496
-vendor/lib64/libssc_default_listener.so|da9e3d83340a83b42554b738d8a72b0350f600d7
-vendor/lib64/libssccalapi.so|3ef8f04dcfe2366108357bc2e810b0e74b6237a3
-vendor/lib64/libultrasound.so|e8534dcc1c735eff196d54ada4db76a38d2ad4dd
-vendor/lib64/sensors.elliptic@2.0.so|963843bef6fc8a17eff19db2337d5e35ec2bf955
-vendor/lib64/sensors.mius.proximity.so|405d6f4c71d1e06dfc5274f6648f7e01b98da48d
-vendor/lib64/sensors.ssc.so|a65814ea2b3703a2ecdac81e844b0c880fc15882
-vendor/lib64/sensors.touch.detect.so|7db295576642545ecefddb9deb2d4b8f40d12c66
+# Sensors
+vendor/bin/init.qcom.sensors.sh
+vendor/bin/sensors.qti
+vendor/bin/sscrpcd
+vendor/etc/elliptic_sensor.xml
+vendor/etc/init/init.vendor.sensors.rc
+vendor/etc/init/vendor.sensors.qti.rc
+vendor/etc/init/vendor.sensors.sscrpcd.rc
+vendor/lib/libsnsapi.so
+vendor/lib64/libnanopb.so
+vendor/lib64/libnotifyaudiohal.so
+vendor/lib64/libsensorcal.so
+vendor/lib64/libsensorslog.so
+vendor/lib64/libsns_api.so
+vendor/lib64/libsns_device_mode_stub.so
+vendor/lib64/libsns_fastRPC_util.so
+vendor/lib64/libsns_low_lat_stream_stub.so
+vendor/lib64/libsns_registry_skel.so
+vendor/lib64/libsnsapi.so
+vendor/lib64/libsnsdiaglog.so
+vendor/lib64/libssc.so
+vendor/lib64/libssc_default_listener.so
+vendor/lib64/libssccalapi.so
+vendor/lib64/libultrasound.so
+vendor/lib64/sensors.elliptic@2.0.so
+vendor/lib64/sensors.mius.proximity.so
+vendor/lib64/sensors.ssc.so
+vendor/lib64/sensors.touch.detect.so
 
-# Sensors configs - from MONA_V14.0.6.0.TKVCNXM
-vendor/etc/sensors/config/ak991x_dri_0.json|ca6696d7a268658919ee0e65029fcfd5b414cf87
-vendor/etc/sensors/config/lsm6dso_0.json|3645d8aa637b23083202e00bfa9241f044092b64
-vendor/etc/sensors/config/sns_amd.json|3bf497d118f1549fc4419eadccbea0f2783a88e3
-vendor/etc/sensors/config/sns_amd_sw_disabled.json|68216c34e32060f1d85d1963245cc6899f841670
-vendor/etc/sensors/config/sns_amd_sw_enabled.json|137ca83967227b6ec9ea8129809013f5de4a1189
-vendor/etc/sensors/config/sns_aod.json|2da280d44f833eee37e5fadee4c9d211fd812f29
-vendor/etc/sensors/config/sns_aont.json|945f447fd40dd4cbea5c9a564461a6363ce85947
-vendor/etc/sensors/config/sns_basic_gestures.json|532664455c7b654006a4daa286ae6b1b60fcf4d5
-vendor/etc/sensors/config/sns_bring_to_ear.json|9c359f17856157a7c3b4d98584ee1e2339a355c7
-vendor/etc/sensors/config/sns_cm.json|af6a2d4ee26fa438536795f806fdf167b5cbf08c
-vendor/etc/sensors/config/sns_device_orient.json|e9db3951ad99df916d9ec509043fd4ac0f5262d2
-vendor/etc/sensors/config/sns_diag_filter.json|7764f26e7ada4ec76e22355fbdbd86f4fd38ba28
-vendor/etc/sensors/config/sns_distance_bound.json|eb595669eabc51d57ffb46ce2c804cc2f61fbd18
-vendor/etc/sensors/config/sns_dpc.json|dd00387a4ccfa68aa2e1095b6907b323f35abdc3
-vendor/etc/sensors/config/sns_facing.json|eff3669022bf505ec63029a0aad04614d408ee69
-vendor/etc/sensors/config/sns_fmv.json|dcc7affaa2178187e7c5e9c6fd725883a9d8ac19
-vendor/etc/sensors/config/sns_geomag_rv.json|2d89a591b52f4ffd74cf54c9e651693e4ec43905
-vendor/etc/sensors/config/sns_gyro_cal.json|418b20593969baa7d0f463b8429f90c71be0b99d
-vendor/etc/sensors/config/sns_heart_rate.json|d852b88f2019565210789112612ff82607f81a11
-vendor/etc/sensors/config/sns_mag_cal.json|d979469322901b84317328456b8257d212723db3
-vendor/etc/sensors/config/sns_mag_cal_legacy.json|8abf8b8632bf48bf49ecb4da451c75536f553458
-vendor/etc/sensors/config/sns_multishake.json|ba64f58d440689f7ca8c9e3af0d8ef751166004b
-vendor/etc/sensors/config/sns_nonui.json|1001f14b1c2ceea08b09c0e52dee9f4fd6959dd5
-vendor/etc/sensors/config/sns_oem13.json|22c93a172dbb8034ef81c710a841db5c9d6d23f5
-vendor/etc/sensors/config/sns_pedometer.json|8333cdd426ec74df167043e1e6435fd14a9be9ec
-vendor/etc/sensors/config/sns_rmd.json|24f87af8765406b5785fdee035eb7d35b759beea
-vendor/etc/sensors/config/sns_rotv.json|edd2f5b6b411af8726c8845154c28f6cfb23b6e3
-vendor/etc/sensors/config/sns_screen_down.json|09cce257f23b9386e5fa4341a4a08df99bb37b6f
-vendor/etc/sensors/config/sns_smd.json|e587106e42d32faa50f382377d1f9b6be50796d8
-vendor/etc/sensors/config/sns_tilt.json|bd6e2fcace9e1da1089febfb47c8076b303b6095
-vendor/etc/sensors/config/sns_tilt_sw_disabled.json|7b4e677346fd360e337d06b2d23e0628bf4dcef6
-vendor/etc/sensors/config/sns_tilt_sw_enabled.json|d9a68361244b6ad9198f792153f73c866bcbffd4
-vendor/etc/sensors/config/sns_tilt_to_wake.json|248ccd6d0718ddfdc63911969f8ee74be40c77e2
-vendor/etc/sensors/config/sns_wrist_pedo.json|bce827dfbdd8584e2e4218a043224fe8c3feee00
-vendor/etc/sensors/config/tcs3408.json|823eee268cd9bf3785eb368e2b85fef56b33a165
-vendor/etc/sensors/config/tmd3719.json|6f34915926a4ca32fc05c535056c8d244aff1894
-vendor/etc/sensors/judge_calibrated.json|5af5cff5ab8f916164cb10fc09ce2a857e2f7f8a
-vendor/etc/sensors/sns_reg_config|10b80bbe06f4d0dc2f50e81e99d7d500288132e2
+# Sensors configs
+vendor/etc/sensors/config/ak991x_dri_0.json
+vendor/etc/sensors/config/lsm6dso_0.json
+vendor/etc/sensors/config/sns_amd.json
+vendor/etc/sensors/config/sns_amd_sw_disabled.json
+vendor/etc/sensors/config/sns_amd_sw_enabled.json
+vendor/etc/sensors/config/sns_aod.json
+vendor/etc/sensors/config/sns_aont.json
+vendor/etc/sensors/config/sns_basic_gestures.json
+vendor/etc/sensors/config/sns_bring_to_ear.json
+vendor/etc/sensors/config/sns_cm.json
+vendor/etc/sensors/config/sns_device_orient.json
+vendor/etc/sensors/config/sns_diag_filter.json
+vendor/etc/sensors/config/sns_distance_bound.json
+vendor/etc/sensors/config/sns_dpc.json
+vendor/etc/sensors/config/sns_facing.json
+vendor/etc/sensors/config/sns_fmv.json
+vendor/etc/sensors/config/sns_geomag_rv.json
+vendor/etc/sensors/config/sns_gyro_cal.json
+vendor/etc/sensors/config/sns_heart_rate.json
+vendor/etc/sensors/config/sns_mag_cal.json
+vendor/etc/sensors/config/sns_mag_cal_legacy.json
+vendor/etc/sensors/config/sns_multishake.json
+vendor/etc/sensors/config/sns_nonui.json
+vendor/etc/sensors/config/sns_oem13.json
+vendor/etc/sensors/config/sns_pedometer.json
+vendor/etc/sensors/config/sns_rmd.json
+vendor/etc/sensors/config/sns_rotv.json
+vendor/etc/sensors/config/sns_screen_down.json
+vendor/etc/sensors/config/sns_smd.json
+vendor/etc/sensors/config/sns_tilt.json
+vendor/etc/sensors/config/sns_tilt_sw_disabled.json
+vendor/etc/sensors/config/sns_tilt_sw_enabled.json
+vendor/etc/sensors/config/sns_tilt_to_wake.json
+vendor/etc/sensors/config/sns_wrist_pedo.json
+vendor/etc/sensors/config/tcs3408.json
+vendor/etc/sensors/config/tmd3719.json
+vendor/etc/sensors/judge_calibrated.json
+vendor/etc/sensors/sns_reg_config
 
-# Sensors (citsensor) - from MONA_V14.0.6.0.TKVCNXM
-vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service|5cc9b4e6fb52caba6a7a2e6079ad1e610fe5b485
-vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc|09f221139f9adabaec1d08555de69cf23db0be15
-vendor/etc/vintf/manifest/vendor.xiaomi.hardware.citsensorservice@1.1-service.xml|b9a2df0b622a5cd3b999328cad3cd14a45605532
-vendor/lib64/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so|9ff46bf23f99fa5e1c95648e350b99e0e9132b20
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so|7ec5f103171601b6932ad215a1c51c3c1445d7b4
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so|4812498e69d56d3faba698d7196796371f4383d8
+# Sensors (citsensor)
+vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service
+vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc
+vendor/etc/vintf/manifest/vendor.xiaomi.hardware.citsensorservice@1.1-service.xml
+vendor/lib64/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so
+vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so
+vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so
 
 # Snapdragon Computer Vision Engine
 vendor/lib/libscveCommon.so
@@ -1041,15 +1016,15 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
-# Soter service (Tencent) - from MONA_V14.0.6.0.TKVCNXM
--vendor/app/SoterService/SoterService.apk|2ff033fff129c8fcc61d4e313c5b315a0bbbf2e8
+# Soter service (Tencent)
+-vendor/app/SoterService/SoterService.apk
 
-# Thermal
-vendor/bin/thermal-engine
-vendor/etc/init/init_thermal-engine.rc
-vendor/etc/thermal-engine.conf
-vendor/lib/libthermalclient.so
-vendor/lib64/libthermalclient.so
+# Thermal - from Nothing Phone (1) A063_2.5.3
+vendor/bin/thermal-engine|616d373861a381a3357d50e86f585f4a26c8e78d
+vendor/etc/init/init_thermal-engine.rc|4f6c91a5b80ff0eb1782364da098e11234579612
+vendor/etc/thermal-engine.conf|d36396291e49bd654d05bda81248f9912e0dadb2
+vendor/lib/libthermalclient.so|6ed686c6c39546a7bf532767f6d87808a42b1176
+vendor/lib64/libthermalclient.so|19863c5bd63733bc3b2260847fc9c3d512597936
 
 # Time services
 -vendor/app/TimeService/TimeService.apk
@@ -1063,23 +1038,20 @@ vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
 vendor/lib64/libGPQTEEC_vendor.so
 vendor/lib64/libGPTEE_vendor.so
-vendor/lib64/libQTEEConnector_listener.so
 vendor/lib64/libQTEEConnector_vendor.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
-# Vibrator - from MONA_V14.0.6.0.TKVCNXM
-vendor/firmware/0_click_P_RTP.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
-vendor/firmware/1_doubelClick_P_RTP.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
-vendor/firmware/2_tick_P_RTP.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
-vendor/firmware/3_thud_P_RTP.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
-vendor/firmware/4_pop_P_RTP.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
-vendor/firmware/5_heavyClick_P_RTP.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
-vendor/firmware/aw8622x_haptic.bin|71e589fd9d9150f288bec81a800aa5014619c183
-vendor/firmware/aw8622x_osc_rtp_24K_5s.bin|9f32c9bf0776a566d3254129a028dae9bed76b81
-vendor/firmware/aw8622x_rtp.bin|3c06255839cd1884e8d9826952e9bfc7842dc671
+# Vibrator
+vendor/firmware/0_click_P_RTP.bin
+vendor/firmware/1_doubelClick_P_RTP.bin
+vendor/firmware/2_tick_P_RTP.bin
+vendor/firmware/3_thud_P_RTP.bin
+vendor/firmware/4_pop_P_RTP.bin
+vendor/firmware/5_heavyClick_P_RTP.bin
+vendor/firmware/aw8622x_haptic.bin
 
-# VNDK - from MONA_V14.0.6.0.TKVCNXM
-vendor/etc/public.libraries.txt|ad84f9dba1272556ad18611de930cda8109e9e9b
+# VNDK
+vendor/etc/public.libraries.txt
 
 # VPP
 vendor/bin/hw/qconfigservice
