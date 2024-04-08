@@ -662,6 +662,7 @@ vendor/lib64/libcodec2_soft_common.so
 vendor/lib64/libcodec2_soft_ozodec.so
 vendor/lib64/libcodec2_soft_ozoenc.so
 vendor/lib64/libdolbyottcameracontrol.so
+vendor/lib64/libeglcore.so
 vendor/lib64/libsfplugin_ccodec_utils.so
 
 # Media VPU FW
