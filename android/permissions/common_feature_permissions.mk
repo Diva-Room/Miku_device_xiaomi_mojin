@@ -70,6 +70,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(PERMISSIONS_SRC_DIR)/android.hardware.sensor.accelerometer.xml:$(PERMISSIONS_COPY_OUT_DIR)/sku_yupik/android.hardware.sensor.accelerometer.xml \
     $(PERMISSIONS_SRC_DIR)/android.hardware.sensor.compass.xml:$(PERMISSIONS_COPY_OUT_DIR)/sku_yupik/android.hardware.sensor.compass.xml \
+    $(PERMISSIONS_SRC_DIR)/android.hardware.sensor.dynamic.head_tracker.xml:$(PERMISSIONS_COPY_OUT_DIR)/sku_yupik/android.hardware.sensor.dynamic.head_tracker.xml \
     $(PERMISSIONS_SRC_DIR)/android.hardware.sensor.gyroscope.xml:$(PERMISSIONS_COPY_OUT_DIR)/sku_yupik/android.hardware.sensor.gyroscope.xml \
     $(PERMISSIONS_SRC_DIR)/android.hardware.sensor.light.xml:$(PERMISSIONS_COPY_OUT_DIR)/sku_yupik/android.hardware.sensor.light.xml \
     $(PERMISSIONS_SRC_DIR)/android.hardware.sensor.proximity.xml:$(PERMISSIONS_COPY_OUT_DIR)/sku_yupik/android.hardware.sensor.proximity.xml \
