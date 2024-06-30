@@ -60,9 +60,6 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        vendor/bin/hw/dolbycodec2)
-            patchelf --replace-needed libcodec2_hidl@1.0.so libcodec2_hidl@1.0.stock.so "${2}"
-            ;;
         vendor/etc/media_lahaina/video_system_specs.json \
         |vendor/etc/media_shima_v1/video_system_specs.json \
         |vendor/etc/media_yupik_v1/video_system_specs.json)
@@ -70,19 +67,7 @@ function blob_fixup() {
             ;;
         vendor/etc/vintf/manifest/c2_manifest_vendor.xml)
             sed -ni '/ozoaudio/!p' "${2}"
-            ;;
-        vendor/lib64/c2.dolby.client.so)
-            patchelf --replace-needed libcodec2_hidl@1.0.so libcodec2_hidl@1.0.stock.so "${2}"
-            ;;
-        vendor/lib64/c2.dolby.hevc.dec.so)
-            patchelf --replace-needed libcodec2_hidl@1.0.so libcodec2_hidl@1.0.stock.so "${2}"
-            ;;
-        vendor/lib64/libcodec2_hidl@1.0.stock.so)
-            patchelf --set-soname libcodec2_hidl@1.0.stock.so "${2}"
-            patchelf --replace-needed libcodec2_vndk.so libcodec2_vndk.stock.so "${2}"
-            ;;
-        vendor/lib64/libcodec2_vndk.stock.so)
-            patchelf --set-soname libcodec2_vndk.stock.so "${2}"
+            sed -ni '/dolby/!p' "${2}"
             ;;
     esac
 }
