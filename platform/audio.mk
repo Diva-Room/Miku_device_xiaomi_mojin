@@ -16,12 +16,14 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default \
     audioadsprpcd \
+    libaudioroute.vendor \
     libaudiopreprocessing \
     libbundlewrapper \
     libdownmix \
     libdynproc \
     libeffectproxy \
     libldnhncr \
+    libprocessgroup.vendor \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
