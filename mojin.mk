@@ -89,6 +89,9 @@ $(call inherit-product, $(LOCAL_PATH)/platform/ipacm.mk)
 # IR
 $(call inherit-product, $(LOCAL_PATH)/platform/ir.mk)
 
+# Kernel
+PRODUCT_ENABLE_UFFD_GC := false
+
 # Keymaster
 $(call inherit-product, $(LOCAL_PATH)/platform/keymaster.mk)
 
