@@ -6,7 +6,8 @@
 
 # QMI
 PRODUCT_PACKAGES += \
-    libjson
+    libjson \
+    libjsoncpp.vendor
 
 # QTI
 PRODUCT_PACKAGES += \
