@@ -15,7 +15,9 @@ PRODUCT_PACKAGES += \
     libvulkan \
     memtrack.default \
     vendor.qti.hardware.display.allocator-service \
-    vendor.qti.hardware.display.composer-service
+    vendor.qti.hardware.display.composer-service \
+    vendor.qti.hardware.display.composer-service.rc \
+    vendor.qti.hardware.display.composer-service.xml
 
 # RenderScript
 PRODUCT_PACKAGES += \
