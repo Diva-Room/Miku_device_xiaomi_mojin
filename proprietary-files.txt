@@ -319,7 +319,7 @@ system_ext/lib64/libdpmframework.so
 system_ext/lib64/libdpmtcm.so
 vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE=com.qualcomm.qti.dpm.api@1.0-vendor
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE_SUFFIX=-vendor
 vendor/lib64/libdpmqmihal.so
 
 # DRM
@@ -554,7 +554,7 @@ vendor/lib64/vendor.qti.ims.rcsuce@1.0.so|68873e22bb4854372e35c88d9d47ff0ab4dfc8
 vendor/lib64/vendor.qti.ims.rcsuce@1.1.so|27608c5688d06fda245d323119f227d95dd8eff4
 vendor/lib64/vendor.qti.ims.rcsuce@1.2.so|3c3710217f6fcb11a98e1f90c5e627ae0d29347f
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|9c631ca11d8be4a0d4fc360eb75fb0a67f54cff4
-vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE=vendor.qti.imsrtpservice@3.0-vendor|26df2c5ff42d58456ebcd0fd7d0ba51f56a3f390
+vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=-vendor|26df2c5ff42d58456ebcd0fd7d0ba51f56a3f390
 
 # IPA
 vendor/etc/init/ipa_fws.rc
@@ -600,7 +600,7 @@ system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
 system_ext/lib64/libmmosal.so
 system_ext/lib64/libmmparser_lite.so
-vendor/lib/libmmosal.so;MODULE=libmmosal-vendor
+vendor/lib/libmmosal.so;MODULE_SUFFIX=-vendor
 vendor/lib/libqc2vppfilter.so
 vendor/lib/libqcodec2_base.so
 vendor/lib/libqcodec2_basecodec.so
@@ -609,7 +609,7 @@ vendor/lib/libqcodec2_hooks.so
 vendor/lib/libqcodec2_platform.so
 vendor/lib/libqcodec2_utils.so
 vendor/lib/libqcodec2_v4l2codec.so
-vendor/lib64/libmmosal.so;MODULE=libmmosal-vendor
+vendor/lib64/libmmosal.so;MODULE_SUFFIX=-vendor
 vendor/lib64/libqc2vppfilter.so
 vendor/lib64/libqcodec2_base.so
 vendor/lib64/libqcodec2_basecodec.so
@@ -1181,6 +1181,6 @@ vendor/lib/libwfduibcsinkinterface_proprietary.so
 vendor/lib/libwfduibcsrc_proprietary.so
 vendor/lib/libwfduibcsrcinterface_proprietary.so
 vendor/lib/libwfdutils_proprietary.so
-vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so;MODULE=vendor.qti.hardware.wifidisplaysession@1.0-vendor
+vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so;MODULE_SUFFIX=-vendor
 vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
 
