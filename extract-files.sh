@@ -69,6 +69,9 @@ function blob_fixup() {
             sed -ni '/ozoaudio/!p' "${2}"
             sed -ni '/dolby/!p' "${2}"
             ;;
+        vendor/lib64/libwvhidl.so)
+            "${PATCHELF}" --add-needed "libcrypto_shim.so" "${2}"
+            ;;
     esac
 }
 
