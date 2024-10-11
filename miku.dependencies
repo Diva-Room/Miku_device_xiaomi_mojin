@@ -2,13 +2,13 @@
   { 
     "repository"   : "Miku_vendor_xiaomi_mojin",
     "target_path"  : "vendor/xiaomi/mojin",
-    "branch"       : "Udon_v2",
+    "branch"       : "Vampire",
     "remote"       : "diva-ssh"
   },
   {
     "repository"   : "Miku_kernel_xiaomi_modina",
     "target_path"  : "kernel/xiaomi/modina",
-    "branch"       : "Udon_v2",
+    "branch"       : "Vampire",
     "remote"       : "diva"
   }
 ]
