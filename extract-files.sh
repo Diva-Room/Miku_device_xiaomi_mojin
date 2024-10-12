@@ -66,10 +66,16 @@ function blob_fixup() {
             sed -i 's/start wfdservice/start wfdservice64/g' "${2}"
             sed -i 's/stop wfdservice/stop wfdservice64/g' "${2}"
             ;;
+        system_ext/lib64/libwfdmmsrc_system.so)
+            "${PATCHELF}" --add-needed "libgui_shim.so" "${2}"
+            ;;
         system_ext/lib64/libwfdservice.so)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "android.media.audio.common.types-V2-cpp.so" "android.media.audio.common.types-V4-cpp.so" "${2}"
             "${PATCHELF}" --replace-needed "android.media.audio.common.types-V3-cpp.so" "android.media.audio.common.types-V4-cpp.so" "${2}"
+            ;;
+        system_ext/lib64/libwfdnative.so)
+            "${PATCHELF}" --add-needed "libinput_shim.so" "${2}"
             ;;
         vendor/etc/media_lahaina/video_system_specs.json \
         |vendor/etc/media_shima_v1/video_system_specs.json \
