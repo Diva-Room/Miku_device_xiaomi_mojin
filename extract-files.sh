@@ -62,7 +62,11 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        system_ext/lib64/libwfdservice.so|system_ext/lib/libwfdservice.so)
+        system_ext/etc/init/wfdservice.rc)
+            sed -i 's/start wfdservice/start wfdservice64/g' "${2}"
+            sed -i 's/stop wfdservice/stop wfdservice64/g' "${2}"
+            ;;
+        system_ext/lib64/libwfdservice.so)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "android.media.audio.common.types-V2-cpp.so" "android.media.audio.common.types-V4-cpp.so" "${2}"
             "${PATCHELF}" --replace-needed "android.media.audio.common.types-V3-cpp.so" "android.media.audio.common.types-V4-cpp.so" "${2}"
