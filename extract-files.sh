@@ -75,6 +75,7 @@ function blob_fixup() {
             "${PATCHELF}" --replace-needed "android.media.audio.common.types-V3-cpp.so" "android.media.audio.common.types-V4-cpp.so" "${2}"
             ;;
         system_ext/lib64/libwfdnative.so)
+            "${PATCHELF}" --add-needed "libbinder_shim.so" "${2}"
             "${PATCHELF}" --add-needed "libinput_shim.so" "${2}"
             ;;
         vendor/etc/media_lahaina/video_system_specs.json \
