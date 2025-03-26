@@ -571,9 +571,6 @@ vendor/firmware/yupik_ipa_fws.b04
 vendor/firmware/yupik_ipa_fws.elf
 vendor/firmware/yupik_ipa_fws.mdt
 
-# IRQ balance
-vendor/bin/msm_irqbalance
-
 # Kernel
 vendor/bin/vendor_modprobe.sh
 
