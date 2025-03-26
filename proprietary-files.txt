@@ -70,8 +70,6 @@ vendor/lib/libsndmonitor.so|27afe5e7b748a8cf3f7aef7507c2978285ad79bb
 vendor/lib/libspkrprot.so|284ad54c7c812f631c8ea5ee33747393c7df8113
 vendor/lib/libssrec.so|7b7df93a2853c7ca02e99be95a5d28379c8aeef7
 vendor/lib/libvideoNS.so;DISABLE_CHECKELF|d4ecaa05d043e4d125ec3b1d06901d8a48091e7c
-vendor/lib64/libcomprcapture.so|f3e99ca846a2e9ae54cffb639cc2a33951794f33
-vendor/lib64/libresampler.so|b38622335b7a883e06f4f48e0f8df33c179d034f
 
 # Audio FX modules - from ZIJIN_V14.0.5.0.TLPCNXM
 system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
