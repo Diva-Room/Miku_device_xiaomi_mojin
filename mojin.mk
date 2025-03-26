@@ -68,9 +68,6 @@ PRODUCT_PACKAGES += fastbootd
 # Fingerprint
 $(call inherit-product, $(LOCAL_PATH)/platform/fingerprint.mk)
 
-# Gatekeeper
-$(call inherit-product, $(LOCAL_PATH)/platform/gatekeeper.mk)
-
 # GPS
 $(call inherit-product, $(LOCAL_PATH)/platform/gps.mk)
 
@@ -92,9 +89,6 @@ $(call inherit-product, $(LOCAL_PATH)/platform/ir.mk)
 # Kernel
 PRODUCT_ENABLE_UFFD_GC := false
 
-# Keymaster
-$(call inherit-product, $(LOCAL_PATH)/platform/keymaster.mk)
-
 # Media
 $(call inherit-product, $(LOCAL_PATH)/platform/media.mk)
 
@@ -105,9 +99,6 @@ PRODUCT_PACKAGES += MonaParts
 PRODUCT_PACKAGES += NothingFeatureUtil
 
 PRODUCT_BOOT_JARS += NothingFeatureUtil
-
-# Networks
-$(call inherit-product, $(LOCAL_PATH)/platform/networks.mk)
 
 # NFC
 $(call inherit-product, $(LOCAL_PATH)/platform/nfc.mk)
@@ -130,9 +121,6 @@ $(call inherit-product, $(LOCAL_PATH)/platform/power.mk)
 
 # QCOM
 $(call inherit-product, $(LOCAL_PATH)/platform/qcom.mk)
-
-# RIL
-$(call inherit-product, $(LOCAL_PATH)/platform/ril.mk)
 
 # Sensors
 $(call inherit-product, $(LOCAL_PATH)/platform/sensors.mk)

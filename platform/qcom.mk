@@ -4,14 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# QMI
-PRODUCT_PACKAGES += \
-    libjson \
-    libjsoncpp.vendor
 
 # QTI
 PRODUCT_PACKAGES += \
-    libqti_vndfwk_detect.vendor \
     libstdc++_vendor \
     libvndfwk_detect_jni.qti.vendor
 
