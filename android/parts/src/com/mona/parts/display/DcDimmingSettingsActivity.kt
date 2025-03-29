@@ -18,7 +18,7 @@ package com.mona.parts.display
 
 import android.os.Bundle
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity
-import com.android.settingslib.R
+import com.android.settingslib.collapsingtoolbar.R
 
 class DcDimmingSettingsActivity : CollapsingToolbarBaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
