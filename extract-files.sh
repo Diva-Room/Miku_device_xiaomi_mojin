@@ -62,6 +62,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        system_ext/bin/wfdservice64)
+            "${PATCHELF}" --add-needed "libwfdservice_shim.so" "${2}"
+            ;;
         system_ext/etc/init/wfdservice.rc)
             sed -i 's/start wfdservice/start wfdservice64/g' "${2}"
             sed -i 's/stop wfdservice/stop wfdservice64/g' "${2}"
