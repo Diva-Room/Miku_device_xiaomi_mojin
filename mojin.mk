@@ -19,9 +19,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 $(call inherit-product, $(LOCAL_PATH)/platform/vab.mk)
 
-# ANT+
-$(call inherit-product, $(LOCAL_PATH)/platform/ant.mk)
-
 # API Level
 $(call inherit-product, $(LOCAL_PATH)/platform/api_level.mk)
 

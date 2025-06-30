@@ -8,9 +8,6 @@ COMMON_PATH := device/xiaomi/mojin
 BOARD_CONFIG_COMMON_PATH := $(COMMON_PATH)/platform/board
 PLATFORM_NAME := lahaina
 
-# ANT+
-BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
-
 # ART
 include $(BOARD_CONFIG_COMMON_PATH)/art.mk
 
