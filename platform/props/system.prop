@@ -17,9 +17,6 @@ persist.sys.fuse.passthrough.enable=true
 # HWUI
 debug.hwui.skia_atrace_enabled=false
 
-# LMK 
-ro.lmk.use_minfree_levels=true
-
 # Media 
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
